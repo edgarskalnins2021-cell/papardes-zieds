@@ -22,7 +22,7 @@ scene('bike', {
   finish() {
     this.done = true; this.x = this.goal; sfx('hiss'); ui.btns([]); ui.task('');
     award(5 + Math.min(15, this.good), 300, 250);
-    setTimeout(() => ui.say('b_flat', () => { chat('b_dace', .2); ui.task('Riepa pagalam. Bet kafejnīca ir tepat!'); ui.btns([{ t: '☕ Iet iekšā', id: 'goBtn', fn: () => go('cafe') }]); }), 900);
+    setTimeout(() => ui.say('b_flat', () => { chat('b_agrita', .2); ui.task('Riepa pagalam. Bet kafejnīca ir tepat!'); ui.btns([{ t: '☕ Iet iekšā', id: 'goBtn', fn: () => go('cafe') }]); }), 900);
   },
   down() { this.tap(); },
   key(k, d) { if (d && (k === ' ' || k === 'ArrowUp' || k === 'Enter')) { this.tap(); return true; } },

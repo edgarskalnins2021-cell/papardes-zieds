@@ -1,101 +1,101 @@
 ID	Runātājs	Balss	Teksts	Piezīme
-c_hint	zane	Zane (jauna, 30 g.)	Psst, atbildi uz zvanu — tā ir Ieva! 📞	
-c_ieva1	ieva	Ieva, vadītāja (silta, 50 g.)	Labrīt! Piedod, ka modinu tik agri. Klausies… mēs visas esam saslimušas: es, Dace un Zane.	
-c_ieva2	ieva	Ieva, vadītāja (silta, 50 g.)	Tu šodien esi vienīgā, kas var atvērt veikalu. Jā, es zinu, tā ir tava pirmā diena…	
+c_hint	kitija	Kitija, kolēģe	Psst, atbildi uz zvanu — tā ir Sniedze! 📞	
+c_sniedze1	sniedze	Sniedze, vadītāja	Labrīt! Piedod, ka modinu tik agri. Klausies… mēs visas esam saslimušas: es, Agrita un Kitija.	
+c_sniedze2	sniedze	Sniedze, vadītāja	Tu šodien esi vienīgā, kas var atvērt veikalu. Jā, es zinu, tā ir tava pirmā diena…	
 c_q	nar	Stāstnieks	Ko tu atbildi?	
-c_ieva3a	ieva	Ieva, vadītāja (silta, 50 g.)	Tā jau es domāju! Tev viss ies kā pa diedziņu.	
-c_ieva3b	ieva	Ieva, vadītāja (silta, 50 g.)	Neuztraucies! Mēs visu dienu būsim čatā un palīdzēsim.	
-c_ieva4	ieva	Ieva, vadītāja (silta, 50 g.)	Veikals jāatver desmitos. Atslēgas Zane kaut kur noslēpa pie durvīm, viņa tev pateiks.	
-c_ieva5	ieva	Ieva, vadītāja (silta, 50 g.)	Un vēl: bez stipras kafijas tur neko nevar. Veiksmi, mīļā!	
+c_sniedze3a	sniedze	Sniedze, vadītāja	Tā jau es domāju! Tev viss ies kā pa diedziņu.	
+c_sniedze3b	sniedze	Sniedze, vadītāja	Neuztraucies! Mēs visu dienu būsim čatā un palīdzēsim.	
+c_sniedze4	sniedze	Sniedze, vadītāja	Veikals jāatver desmitos. Atslēgas Kitija kaut kur noslēpa pie durvīm, viņa tev pateiks.	
+c_sniedze5	sniedze	Sniedze, vadītāja	Un vēl: bez stipras kafijas tur neko nevar. Veiksmi, mīļā!	
 c_nar1	nar	Stāstnieks	Klik. Pulkstenis rāda 8:40. Laiks celties!	
-c_sys1	sys	(netiek ierakstīts)	Ieva pievienoja tevi grupai «Šarlotes audumi 🧵»	
-c_dace1	dace	Dace (jautra, 40 g.)	Sveika, {name}! 🤧 Esmu zem trim segām, bet ar sirdi veikalā	vārds tiek ievietots — ierakstīt bez vārda vai nerakstīt
-c_zane1	zane	Zane (jauna, 30 g.)	Atvaino par atslēgām 🙈 Kad būsi pie durvīm, es tev palīdzēšu!	
-c_ieva6	ieva	Ieva, vadītāja (silta, 50 g.)	Meitenes, mūsu jaunā zvaigzne ir klāt! ⭐	
-c_dace2	dace	Dace (jautra, 40 g.)	Paldies, mīļā ❤️ Ar tēju un medu domās esam ar tevi	
-c_zane2	zane	Zane (jauna, 30 g.)	Tā runā īsta šuvēja! 🧵💪	
-c_ieva7	ieva	Ieva, vadītāja (silta, 50 g.)	Kafija ir pirmajā vietā! Pa ceļam ir laba kafejnīca ☕	
-m_hint1	dace	Dace (jautra, 40 g.)	Velc ar pirkstu! Sega pati nost nenāks 😄	
-m_hint2	zane	Zane (jauna, 30 g.)	Ja kaut kas neiet, mēģini vilkt lēnāk un ilgāk 🙂	
-m_zane_fast	zane	Zane (jauna, 30 g.)	Tik ātri?! Es 20 minūtes meklēju otru zeķi 😂	
-m_dace_slow	dace	Dace (jautra, 40 g.)	Galvenais — tīri zobi un smaids! 😁	
-b_hint	dace	Dace (jautra, 40 g.)	Spied tieši tad, kad punktiņš ir zaļajā joslā! 🚲	
+c_sys1	sys	(netiek ierakstīts)	Sniedze pievienoja tevi grupai «Šarlotes audumi 🧵»	
+c_agrita1	agrita	Agrita, kolēģe	Sveika, {name}! 🤧 Esmu zem trim segām, bet ar sirdi veikalā	vārds tiek ievietots — ierakstīt bez vārda vai nerakstīt
+c_kitija1	kitija	Kitija, kolēģe	Atvaino par atslēgām 🙈 Kad būsi pie durvīm, es tev palīdzēšu!	
+c_sniedze6	sniedze	Sniedze, vadītāja	Meitenes, mūsu jaunā zvaigzne ir klāt! ⭐	
+c_agrita2	agrita	Agrita, kolēģe	Paldies, mīļā ❤️ Ar tēju un medu domās esam ar tevi	
+c_kitija2	kitija	Kitija, kolēģe	Tā runā īsta šuvēja! 🧵💪	
+c_sniedze7	sniedze	Sniedze, vadītāja	Kafija ir pirmajā vietā! Pa ceļam ir laba kafejnīca ☕	
+m_hint1	agrita	Agrita, kolēģe	Velc ar pirkstu! Sega pati nost nenāks 😄	
+m_hint2	kitija	Kitija, kolēģe	Ja kaut kas neiet, mēģini vilkt lēnāk un ilgāk 🙂	
+m_kitija_fast	kitija	Kitija, kolēģe	Tik ātri?! Es 20 minūtes meklēju otru zeķi 😂	
+m_agrita_slow	agrita	Agrita, kolēģe	Galvenais — tīri zobi un smaids! 😁	
+b_hint	agrita	Agrita, kolēģe	Spied tieši tad, kad punktiņš ir zaļajā joslā! 🚲	
 b_flat	nar	Stāstnieks	Pššš… Riepa pārdurta! Bet paskaties — tieši blakus ir kafejnīca.	
-b_dace	dace	Dace (jautra, 40 g.)	Riepa?! 😱 Tā ir zīme — laiks kafijai ☕	
-cf_hint	zane	Zane (jauna, 30 g.)	Turi pogu un atlaid, kad kafija ir pie zaļās svītras ☕	
+b_agrita	agrita	Agrita, kolēģe	Riepa?! 😱 Tā ir zīme — laiks kafijai ☕	
+cf_hint	kitija	Kitija, kolēģe	Turi pogu un atlaid, kad kafija ir pie zaļās svītras ☕	
 cf_bar1	barista	Bārists Toms (30 g.)	Labrīt! Oho, riepa pagalam? Nekas, kafija visu salabos. Ko tev?	
 cf_r_black	barista	Bārists Toms (30 g.)	Melna kā rudens nakts. Stipra izvēle!	
 cf_r_capp	barista	Bārists Toms (30 g.)	Kapučīno ar sirsniņu putās — tūlīt būs!	
 cf_r_latte	barista	Bārists Toms (30 g.)	Saldi rīti ir labākie rīti. Karamele klāt!	
 cf_r_cocoa	barista	Bārists Toms (30 g.)	Kakao? Tu man patīc! Putukrējums būs.	
 cf_bar_bye	barista	Bārists Toms (30 g.)	Lūdzu! Un uzmanīgi — ārā peļķes, un vējš lauž zarus.	
-r_hint	zane	Zane (jauna, 30 g.)	Lec pirms peļķes, nevis pašā peļķē 😉	
-r_zane_dry	zane	Zane (jauna, 30 g.)	Ne pilītes neizlieji? Tu esi īsta ninja! 🥷☕	
-r_dace_wet	dace	Dace (jautra, 40 g.)	Kafija mazliet izlija, bet galvenais — tu esi klāt! 🏃‍♀️	
-k_hint	dace	Dace (jautra, 40 g.)	Padomā, kur Zane noteikti NEliktu atslēgas 🤔	
-k_zane1	zane	Zane (jauna, 30 g.)	Atslēgas! 🙈 Es tās noslēpu… Puķu podu es viena nemaz nevaru pacelt, un miskastē es rokas nebāztu ne par ko 🤢	
+r_hint	kitija	Kitija, kolēģe	Lec pirms peļķes, nevis pašā peļķē 😉	
+r_kitija_dry	kitija	Kitija, kolēģe	Ne pilītes neizlieji? Tu esi īsta ninja! 🥷☕	
+r_agrita_wet	agrita	Agrita, kolēģe	Kafija mazliet izlija, bet galvenais — tu esi klāt! 🏃‍♀️	
+k_hint	agrita	Agrita, kolēģe	Padomā, kur Kitija noteikti NEliktu atslēgas 🤔	
+k_kitija1	kitija	Kitija, kolēģe	Atslēgas! 🙈 Es tās noslēpu… Puķu podu es viena nemaz nevaru pacelt, un miskastē es rokas nebāztu ne par ko 🤢	
 k_obs_pot	nar	Stāstnieks	Liels, smags pods ar krizantēmām. Zeme ap to nav kustināta.	
 k_obs_bin	nar	Stāstnieks	Pilna miskaste. Smarža… nu, ne pēc rozēm. 🤢	
 k_obs_mat	nar	Stāstnieks	Kājslauķis. Viens stūris ir mazliet pacelts…	
 k_pot_no	nar	Stāstnieks	Tu ar pūlēm paceļ podu… Zem tā tikai slieka. Sveika, slieka! 🪱	
 k_bin_no	nar	Stāstnieks	Fui! Banāna miza un vakardienas pīrādziņš. Atslēgu nav.	
-k_dace_pot	dace	Dace (jautra, 40 g.)	Haha, to podu pat Ieva nevar pacelt 😂	
-k_zane_bin	zane	Zane (jauna, 30 g.)	Es taču teicu — tur es rokas nebāztu! 🤢	
+k_agrita_pot	agrita	Agrita, kolēģe	Haha, to podu pat Sniedze nevar pacelt 😂	
+k_kitija_bin	kitija	Kitija, kolēģe	Es taču teicu — tur es rokas nebāztu! 🤢	
 k_mat_yes	nar	Stāstnieks	Tu pacel kājslauķi… Bingo! Atslēgas! 🔑	
 k_time	nar	Stāstnieks	Pulkstenis rāda 9:35. Veikals jāatver 10:00, bet darāmā vēl ir daudz!	
-k_zane_good	zane	Zane (jauna, 30 g.)	Uzreiz atradi?! Tu esi īsta detektīve 🕵️‍♀️	
-a_hint_idle	zane	Zane (jauna, 30 g.)	Signalizācijai vajag četrus ciparus 🔢 Paskaties uz pogām!	
+k_kitija_good	kitija	Kitija, kolēģe	Uzreiz atradi?! Tu esi īsta detektīve 🕵️‍♀️	
+a_hint_idle	kitija	Kitija, kolēģe	Signalizācijai vajag četrus ciparus 🔢 Paskaties uz pogām!	
 a_nar1	nar	Stāstnieks	Tu atver durvis un… iiiii! Ieslēdzas signalizācija! Par to tev neviens neko neteica.	
-a_dace_hint	dace	Dace (jautra, 40 g.)	Paskaties uz pogām cieši 🔍 Kuras ir visnodilušākās?	
-a_ieva_hint	ieva	Ieva, vadītāja (silta, 50 g.)	Kods ir tik vienkāršs, ka pat es to atceros 😅	
+a_agrita_hint	agrita	Agrita, kolēģe	Paskaties uz pogām cieši 🔍 Kuras ir visnodilušākās?	
+a_sniedze_hint	sniedze	Sniedze, vadītāja	Kods ir tik vienkāršs, ka pat es to atceros 😅	
 a_ok	nar	Stāstnieks	Klusums. Tu nemaz nesabijies: ieraudzīji spīdīgās pogas un nospiedi vienkāršāko kombināciju.	
 a_guard	apsargs	Apsardzes darbinieks	Apsardze klausās! Kas tur notiek? … Ā, jaunā kolēģe! Kods ir viens, divi, trīs, četri. Labu dienu!	
 a_guard_ok	nar	Stāstnieks	Tu ievadi 1-2-3-4, un sirēna apklust. Nākamreiz atcerēsies!	
-sh_hint	dace	Dace (jautra, 40 g.)	Spied tieši tad, kad rādītājs ir zaļajā! 💪	
+sh_hint	agrita	Agrita, kolēģe	Spied tieši tad, kad rādītājs ir zaļajā! 💪	
 sh_jam	nar	Stāstnieks	Krak! Vārti pacēlās mazliet un iesprūda. Te vajag spēku!	
-sh_dace	dace	Dace (jautra, 40 g.)	Tie vārti vienmēr iesprūst! Ar abām rokām un «hop!» 💪	
+sh_agrita	agrita	Agrita, kolēģe	Tie vārti vienmēr iesprūst! Ar abām rokām un «hop!» 💪	
 sh_ok	nar	Stāstnieks	Vārti saritinās augšā vienā rullī. Bet iekšā… pilnīga tumsa.	
-d_hint1	zane	Zane (jauna, 30 g.)	Slēdzis ir pie pašas tālākās sienas, kreisajā pusē 👈	
-d_hint2	dace	Dace (jautra, 40 g.)	Meklē mazu zilu gaismiņu! Tā ir maziņa, bet spīd 💙	
+d_hint1	kitija	Kitija, kolēģe	Slēdzis ir pie pašas tālākās sienas, kreisajā pusē 👈	
+d_hint2	agrita	Agrita, kolēģe	Meklē mazu zilu gaismiņu! Tā ir maziņa, bet spīd 💙	
 d_light	nar	Stāstnieks	Klik! Lampas iemirgojas, un te nu tas ir — tavs veikals šodien.	
-d_zane_light	zane	Zane (jauna, 30 g.)	Tu atradi slēdzi! Es pirmajā dienā to meklēju pusstundu 😅	
-p_hint	zane	Zane (jauna, 30 g.)	Pieskaries apaļajām zīmēm veikalā — tur ir darbi ☕🧹💶🖨	
-p_dace1	dace	Dace (jautra, 40 g.)	Vispirms kafija! Tad viss pārējais ☕	
-p_ieva_coffee	ieva	Ieva, vadītāja (silta, 50 g.)	Smaržo līdz pat manai gultai ☕😄	
-p_dace_vac	dace	Dace (jautra, 40 g.)	Spīd kā jauna! No audumiem putekļi rodas ātri, tāpēc vēlāk vēl jāpasūc 🧹	
-p_zane_cash	zane	Zane (jauna, 30 g.)	Tā piecīte! 🙈 Paldies, ka atradi!	
-p_zane_5	zane	Zane (jauna, 30 g.)	Ak, vakar viena piecīte iekrita zem atvilktnes 🙈 Paskaties apakšā!	
-p_ieva_print	ieva	Ieva, vadītāja (silta, 50 g.)	Printeris vienmēr iestrēgst pie pirmās lapas. Tagad tu zini viņa noslēpumu 😉	
+d_kitija_light	kitija	Kitija, kolēģe	Tu atradi slēdzi! Es pirmajā dienā to meklēju pusstundu 😅	
+p_hint	kitija	Kitija, kolēģe	Pieskaries apaļajām zīmēm veikalā — tur ir darbi ☕🧹💶🖨	
+p_agrita1	agrita	Agrita, kolēģe	Vispirms kafija! Tad viss pārējais ☕	
+p_sniedze_coffee	sniedze	Sniedze, vadītāja	Smaržo līdz pat manai gultai ☕😄	
+p_agrita_vac	agrita	Agrita, kolēģe	Spīd kā jauna! No audumiem putekļi rodas ātri, tāpēc vēlāk vēl jāpasūc 🧹	
+p_kitija_cash	kitija	Kitija, kolēģe	Tā piecīte! 🙈 Paldies, ka atradi!	
+p_kitija_5	kitija	Kitija, kolēģe	Ak, vakar viena piecīte iekrita zem atvilktnes 🙈 Paskaties apakšā!	
+p_sniedze_print	sniedze	Sniedze, vadītāja	Printeris vienmēr iestrēgst pie pirmās lapas. Tagad tu zini viņa noslēpumu 😉	
 p_done	nar	Stāstnieks	Kafija iedzerta, grīda tīra, kase sakrīt, pasūtījumi izdrukāti. Tagad jāsakomplektē pieci interneta pasūtījumi.	
-o_hint1	zane	Zane (jauna, 30 g.)	Cilnes ir virs precēm: Audumi, Dzija, Piederumi. Pasūtījuma lapiņa ir pašā augšā 📋	
-o_hint2	dace	Dace (jautra, 40 g.)	Audumu velc pa labi līdz zaļajai līnijai un spied «Griezt» ✂	
+o_hint1	kitija	Kitija, kolēģe	Cilnes ir virs precēm: Audumi, Dzija, Piederumi. Pasūtījuma lapiņa ir pašā augšā 📋	
+o_hint2	agrita	Agrita, kolēģe	Audumu velc pa labi līdz zaļajai līnijai un spied «Griezt» ✂	
 o_intro	nar	Stāstnieks	Pieci pasūtījumi kā restorānā: savāc preces, nogriez audumu, sapako, uzlīmē uzlīmi un ieliec pelēkajā kastē. Katram ir savs taimeris!	
-o_zane_first	zane	Zane (jauna, 30 g.)	Pirmā paka gatava! 📦 Tu esi dzimusi šim darbam	
-o_fast1	dace	Dace (jautra, 40 g.)	Ātrāk nekā es! 😮	
-o_fast2	ieva	Ieva, vadītāja (silta, 50 g.)	Pircējas būs priecīgas — tik ātri! 💛	
+o_kitija_first	kitija	Kitija, kolēģe	Pirmā paka gatava! 📦 Tu esi dzimusi šim darbam	
+o_fast1	agrita	Agrita, kolēģe	Ātrāk nekā es! 😮	
+o_fast2	sniedze	Sniedze, vadītāja	Pircējas būs priecīgas — tik ātri! 💛	
 o_done	nar	Stāstnieks	Pieci pasūtījumi ir pelēkajā kastē! Tagad tie jāaiznes uz oranžo pakomātu.	
-l_hint	zane	Zane (jauna, 30 g.)	Lielā paka iet lielajā nodalījumā. Sāc ar lielākajām! 📦	
+l_hint	kitija	Kitija, kolēģe	Lielā paka iet lielajā nodalījumā. Sāc ar lielākajām! 📦	
 l_done	nar	Stāstnieks	Durtiņas aizveras viena pēc otras: klak, klak, klak. Pakas ir ceļā pie pircējām!	
-l_zane_tetris	zane	Zane (jauna, 30 g.)	Kā tetrisā! Neviena lieka vieta 🧩	
-l_dace	dace	Dace (jautra, 40 g.)	Visas pakas ceļā! Bravo 👏	
-op_hint1	dace	Dace (jautra, 40 g.)	Pieskaries klientei ar zīmīti virs galvas: 📍 jautā, kur kas ir; ❓ ir jautājums; ✂️ grib audumu; 💶 maksā	
-op_hint2	zane	Zane (jauna, 30 g.)	Neaizmirsti putekļus un pasūtījumus! Pogas ir zem uzdevuma 🧹📦	
+l_kitija_tetris	kitija	Kitija, kolēģe	Kā tetrisā! Neviena lieka vieta 🧩	
+l_agrita	agrita	Agrita, kolēģe	Visas pakas ceļā! Bravo 👏	
+op_hint1	agrita	Agrita, kolēģe	Pieskaries klientei ar zīmīti virs galvas: 📍 jautā, kur kas ir; ❓ ir jautājums; ✂️ grib audumu; 💶 maksā	
+op_hint2	kitija	Kitija, kolēģe	Neaizmirsti putekļus un pasūtījumus! Pogas ir zem uzdevuma 🧹📦	
 op_open	nar	Stāstnieks	Desmit! Tu apgriez zīmi uz «Atvērts», un durvju zvaniņš jau skan.	
-op_ieva_open	ieva	Ieva, vadītāja (silta, 50 g.)	Veikals ir vaļā! Esmu tik lepna 🥹	
-op_ieva_order	ieva	Ieva, vadītāja (silta, 50 g.)	Ienāca jauns interneta pasūtījums! Lapiņa ir pie pelēkās kastes 🖨	
-op_dace_tea	dace	Dace (jautra, 40 g.)	Esmu izdzērusi jau sesto tasi tējas ☕ Kā tev iet?	
-op_dace_tea2	dace	Dace (jautra, 40 g.)	Turos! Domās esmu tur ar tevi 🫶	
-op_zane_cool	zane	Zane (jauna, 30 g.)	Redzu, ka tu esi dzimusi pārdevēja 😎	
-op_zane_selfie	zane	Zane (jauna, 30 g.)	Mans kaķis guļ uz manis un neļauj celties 🐈 Tu esi mūsu varone!	
-op_ieva_lunch	ieva	Ieva, vadītāja (silta, 50 g.)	Pusdienlaiks! Neaizmirsti iedzert ūdeni 💧	
-op_dace_photo	dace	Dace (jautra, 40 g.)	Mana mamma teica, ka atnāks pēc dzijas 😄 Viņai patīk zilā!	
-op_ieva_almost	ieva	Ieva, vadītāja (silta, 50 g.)	Vēl drusciņ līdz 14:00! Tu esi brīnišķīga 🌟	
-op_zane_dust	zane	Zane (jauna, 30 g.)	Putekļu jau kā sniega 🙈 Sūcējs ir stūrī!	
-op_dace_angry	dace	Dace (jautra, 40 g.)	Neuztraucies, ka viena aizgāja. Tā gadās arī mums 💛	
-op_zane_smart	zane	Zane (jauna, 30 g.)	Tu zini atbildi? Tu esi gudrāka par mani 😅	
-op_ieva_courier	ieva	Ieva, vadītāja (silta, 50 g.)	Kurjers paņēma pakas! 📦👋	
-op_vac1	dace	Dace (jautra, 40 g.)	Tīrs kā aptiekā! ✨	
-op_vac2	zane	Zane (jauna, 30 g.)	Putekļi uzvarēti! 🧹💪	
+op_sniedze_open	sniedze	Sniedze, vadītāja	Veikals ir vaļā! Esmu tik lepna 🥹	
+op_sniedze_order	sniedze	Sniedze, vadītāja	Ienāca jauns interneta pasūtījums! Lapiņa ir pie pelēkās kastes 🖨	
+op_agrita_tea	agrita	Agrita, kolēģe	Esmu izdzērusi jau sesto tasi tējas ☕ Kā tev iet?	
+op_agrita_tea2	agrita	Agrita, kolēģe	Turos! Domās esmu tur ar tevi 🫶	
+op_kitija_cool	kitija	Kitija, kolēģe	Redzu, ka tu esi dzimusi pārdevēja 😎	
+op_kitija_selfie	kitija	Kitija, kolēģe	Mans kaķis guļ uz manis un neļauj celties 🐈 Tu esi mūsu varone!	
+op_sniedze_lunch	sniedze	Sniedze, vadītāja	Pusdienlaiks! Neaizmirsti iedzert ūdeni 💧	
+op_agrita_photo	agrita	Agrita, kolēģe	Mana mamma teica, ka atnāks pēc dzijas 😄 Viņai patīk zilā!	
+op_sniedze_almost	sniedze	Sniedze, vadītāja	Vēl drusciņ līdz 14:00! Tu esi brīnišķīga 🌟	
+op_kitija_dust	kitija	Kitija, kolēģe	Putekļu jau kā sniega 🙈 Sūcējs ir stūrī!	
+op_agrita_angry	agrita	Agrita, kolēģe	Neuztraucies, ka viena aizgāja. Tā gadās arī mums 💛	
+op_kitija_smart	kitija	Kitija, kolēģe	Tu zini atbildi? Tu esi gudrāka par mani 😅	
+op_sniedze_courier	sniedze	Sniedze, vadītāja	Kurjers paņēma pakas! 📦👋	
+op_vac1	agrita	Agrita, kolēģe	Tīrs kā aptiekā! ✨	
+op_vac2	kitija	Kitija, kolēģe	Putekļi uzvarēti! 🧹💪	
 op_close	nar	Stāstnieks	Pulkstenis ir 14:00! Tu aizslēdz durvis un dziļi ievelc elpu.	
 w_zip	kl	Kliente (45-70 g.)	Labdien! Kur jums ir rāvējslēdzēji?	
 w_buttons	kl	Kliente (45-70 g.)	Sveiki! Man vajag pogas mētelim. Kur tās atrast?	
@@ -150,9 +150,9 @@ cl_1	nar	Stāstnieks	Tu apgriez zīmi uz «Slēgts». Atliek pārbaudīt kasi.
 cl_cashq	nar	Stāstnieks	Cik naudas tagad jābūt kases atvilktnē?	
 cl_cash_ok	nar	Stāstnieks	Pareizi! Kartes maksājumi atvilktnē naudu nepieliek, tāpēc skaita tikai skaidro naudu. Kase sakrīt!	
 cl_cash_no	nar	Stāstnieks	Ne gluži. Atvilktnē ir rīta nauda plus šodienas skaidrā nauda. Kartes maksājumi tajā nenonāk.	
-cl_ieva	ieva	Ieva, vadītāja (silta, 50 g.)	{name}, tu esi brīnums! ❤️ Paldies, ka izglābi dienu!	vārds tiek ievietots — ierakstīt bez vārda vai nerakstīt
-cl_dace	dace	Dace (jautra, 40 g.)	Rīt varbūt atkal? 😄 Es vēl šķaudu…	
-cl_zane	zane	Zane (jauna, 30 g.)	Nosūti savu rezultātu draudzenēm — lai pamēģina! 🧵	
+cl_sniedze	sniedze	Sniedze, vadītāja	{name}, tu esi brīnums! ❤️ Paldies, ka izglābi dienu!	vārds tiek ievietots — ierakstīt bez vārda vai nerakstīt
+cl_agrita	agrita	Agrita, kolēģe	Rīt varbūt atkal? 😄 Es vēl šķaudu…	
+cl_kitija	kitija	Kitija, kolēģe	Nosūti savu rezultātu draudzenēm — lai pamēģina! 🧵	
 q01	kl	Kliente (45-70 g.)	Vai audumu pirms šūšanas vajag izmazgāt?	
 q01a	me	Spēlētāja (tu)	Jā, lai tas saraujas jau pirms šūšanas, nevis gatavajā apģērbā	
 q01b	me	Spēlētāja (tu)	Nē, no mazgāšanas audums kļūst par biezu	

@@ -43,7 +43,7 @@ scene('locker', {
     for (let i = 0; i < this.par.length; i++) setTimeout(() => sfx('klunk'), 200 + i * 220);
     setTimeout(() => { sfx('win'); ui.say('l_done', () => {
       award(10 + (this.waste ? 0 : 6), 300, 260); addMin(2); D.openAt = null;
-      chat(this.waste ? 'l_dace' : 'l_zane_tetris', .2);
+      chat(this.waste ? 'l_agrita' : 'l_kitija_tetris', .2);
       ui.task('Pakas nosūtītas! Ātri atpakaļ — klientes jau gaida pie durvīm.');
       ui.btns([{ t: '🏪 Atvērt veikalu!', id: 'goBtn', fn: () => go('open') }]);
     }); }, 1400);

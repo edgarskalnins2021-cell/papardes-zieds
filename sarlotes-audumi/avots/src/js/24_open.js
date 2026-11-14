@@ -22,10 +22,10 @@ scene('open', {
     this.wBag = shuffle(WHERE.slice()); this.cBag = shuffle(CUTREQ.slice());
     this.orderAt = [625, 668, 712, 760, 802].filter(t => t > this.gm + 2);
     this.courAt = [722, 831].filter(t => t > this.gm);
-    this.chatAt = [[640, 'op_dace_tea'], [700, 'op_zane_selfie'], [722, 'op_ieva_lunch'], [780, 'op_dace_photo'], [826, 'op_ieva_almost']].filter(c => c[0] > this.gm);
+    this.chatAt = [[640, 'op_agrita_tea'], [700, 'op_kitija_selfie'], [722, 'op_sniedze_lunch'], [780, 'op_agrita_photo'], [826, 'op_sniedze_almost']].filter(c => c[0] > this.gm);
     this.flags = {};
     sfx('bell');
-    ui.say('op_open', () => { chat('op_ieva_open', .2); this.statusUI(); });
+    ui.say('op_open', () => { chat('op_sniedze_open', .2); this.statusUI(); });
   },
   /* ---------- palīgi ---------- */
   patience() { const u = S.up || {}; return 52 * TK() * (u.flowers ? 1.1 : 1) * (u.coffee ? 1.25 : 1) * (D.dust > 55 ? .75 : 1); },
@@ -68,7 +68,7 @@ scene('open', {
   },
   answer(c, ok) {
     D.quizN++; const o = { who: c.name, spk: c.male ? 'klv' : 'kl' };
-    if (ok) { D.quizOk++; c.hearts = Math.min(5, c.hearts + 1); award(5, c.x, c.y - 180); sfx('win'); if (!this.flags.quiz) { this.flags.quiz = 1; chat('op_zane_smart', .5); } ui.say(pick(['qa_ok1', 'qa_ok2', 'qa_ok3']), () => this.afterTalk(c, .7), o); }
+    if (ok) { D.quizOk++; c.hearts = Math.min(5, c.hearts + 1); award(5, c.x, c.y - 180); sfx('win'); if (!this.flags.quiz) { this.flags.quiz = 1; chat('op_kitija_smart', .5); } ui.say(pick(['qa_ok1', 'qa_ok2', 'qa_ok3']), () => this.afterTalk(c, .7), o); }
     else { c.hearts = Math.max(0, c.hearts - 1); sfx('bad'); ui.say(c.req.id + 'x', () => this.afterTalk(c, .45), o); }
   },
   afterTalk(c, buyP) { if (rnd() < buyP) this.goShop(c, null); else this.finishCust(c); this.statusUI(); },
@@ -121,10 +121,10 @@ scene('open', {
     this.gm += dt * this.rate; setMin(Math.min(840, this.gm));
     this.secT += dt; if (this.secT >= 1) { this.secT = 0; D.cleanSum += 100 - D.dust; D.cleanN++; this.statusUI(); }
     D.dust = Math.min(100, D.dust + dt * .12 / TK());
-    if (D.dust > 60 && !this.flags.dust) { this.flags.dust = 1; chat('op_zane_dust'); }
+    if (D.dust > 60 && !this.flags.dust) { this.flags.dust = 1; chat('op_kitija_dust'); }
     if (this.sched.length && this.gm >= this.sched[0] && this.gm < 832) { if (this.spawn()) this.sched.shift(); }
-    if (this.orderAt.length && this.gm >= this.orderAt[0]) { this.orderAt.shift(); const tpl = pick(ORDER_POOL); this.ordersQ.push(makeOrder(tpl)); D.ordersTotal++; sfx('print'); floater(490, 400, '🖨 Jauns pasūtījums!', '#2471a3'); if (!this.flags.ord) { this.flags.ord = 1; chat('op_ieva_order', .3); } }
-    if (this.chatAt.length && this.gm >= this.chatAt[0][0]) { const [, id] = this.chatAt.shift(); chat(id); if (id === 'op_dace_tea') setTimeout(() => ui.replies([{ t: 'Turies! 🍵', fn: () => chat('op_dace_tea2') }, { t: 'Te viss kārtībā 😎', fn: () => chat('op_zane_cool') }]), 1500); }
+    if (this.orderAt.length && this.gm >= this.orderAt[0]) { this.orderAt.shift(); const tpl = pick(ORDER_POOL); this.ordersQ.push(makeOrder(tpl)); D.ordersTotal++; sfx('print'); floater(490, 400, '🖨 Jauns pasūtījums!', '#2471a3'); if (!this.flags.ord) { this.flags.ord = 1; chat('op_sniedze_order', .3); } }
+    if (this.chatAt.length && this.gm >= this.chatAt[0][0]) { const [, id] = this.chatAt.shift(); chat(id); if (id === 'op_agrita_tea') setTimeout(() => ui.replies([{ t: 'Turies! 🍵', fn: () => chat('op_agrita_tea2') }, { t: 'Te viss kārtībā 😎', fn: () => chat('op_kitija_cool') }]), 1500); }
     if (this.courAt.length && this.gm >= this.courAt[0] && !this.courier) { this.courAt.shift(); this.courier = { x: DOOR, y: FEET, tx: 488, state: 'in', t: 0, ph: 0, look: { coat: '#e67e22', hair: '#5a3825', skin: '#e8b48f', style: 'mshort', glasses: false, hat: '#2b2420', bag: null, scarf: null, male: true } }; sfx('bell'); }
     // klientes
     for (const c of this.cust) {
@@ -139,7 +139,7 @@ scene('open', {
         if (this.point === c) continue;
         c.wt += dt; const step = this.patience() / 5;
         if (c.wt >= step) { c.wt = 0; c.hearts--; if (c.hearts === 1 && S.up && S.up.choco && !D.chocoUsed) { D.chocoUsed = true; c.hearts += 2; floater(c.x, c.y - 200, '🍫 +2 ❤', '#6e2c00'); } }
-        if (c.hearts <= 0) { D.custAngry++; D.hearts.push(0); this.bubble(c, c.male ? 'leave_angry_m' : 'leave_angry'); sfx('bad'); this.leave(c); if (!this.flags.angry) { this.flags.angry = 1; chat('op_dace_angry', .3); } }
+        if (c.hearts <= 0) { D.custAngry++; D.hearts.push(0); this.bubble(c, c.male ? 'leave_angry_m' : 'leave_angry'); sfx('bad'); this.leave(c); if (!this.flags.angry) { this.flags.angry = 1; chat('op_agrita_angry', .3); } }
       }
     }
     this.cust = this.cust.filter(c => c.state !== 'gone' || c.say);
@@ -148,7 +148,7 @@ scene('open', {
     if (k) {
       const d = k.tx - k.x; if (Math.abs(d) > 2) { k.x += Math.sign(d) * Math.min(Math.abs(d), 160 * dt); k.ph += dt * 10; }
       else if (k.state === 'in') { k.state = 'take'; k.t = 0; k.took = this.boxN; this.boxN = 0; sfx('klunk'); k.say = { text: T(k.took ? 'cour_hi' : 'cour_empty'), t: 2.4 }; voice(k.took ? 'cour_hi' : 'cour_empty'); }
-      else if (k.state === 'take') { k.t += dt; if (k.t > 1.4) { k.state = 'out'; k.tx = DOOR + 40; if (k.took) chat('op_ieva_courier', .2); } }
+      else if (k.state === 'take') { k.t += dt; if (k.t > 1.4) { k.state = 'out'; k.tx = DOOR + 40; if (k.took) chat('op_sniedze_courier', .2); } }
       else if (k.state === 'out') { this.courier = null; }
       if (k.say) { k.say.t -= dt; if (k.say.t <= 0) k.say = null; }
     }

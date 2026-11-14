@@ -7,7 +7,7 @@ scene('shutter', {
   },
   unlock() {
     if (this.ph !== 'key') return; this.ph = 'jam'; sfx('key'); progress(); this.target = .12;
-    setTimeout(() => { sfx('rattle'); this.shake = .5; ui.say('sh_jam', () => { chat('sh_dace', .1); this.force(); }); }, 800);
+    setTimeout(() => { sfx('rattle'); this.shake = .5; ui.say('sh_jam', () => { chat('sh_agrita', .1); this.force(); }); }, 800);
   },
   force() {
     this.ph = 'force';

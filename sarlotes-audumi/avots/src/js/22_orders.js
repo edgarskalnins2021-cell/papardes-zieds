@@ -20,7 +20,7 @@ scene('orders', {
     const f = this.flow, n = orderCoins(f); award(n, 300, 300);
     D.ordersDone++; if (f.left <= 0) D.ordersLate++;
     this.parcels.push({ no: f.order.no, size: f.order.lines.some(l => ITEMS[l.id].cat === 'aud' && l.q >= 1.4) ? 3 : f.order.lines.length >= 3 || f.order.lines.some(l => ITEMS[l.id].cat === 'aud') ? 2 : 1 });
-    if (this.ix === 0) chat('o_zane_first', .2); else if (f.left > f.order.time * .5) chat(pick(['o_fast1', 'o_fast2']), .2);
+    if (this.ix === 0) chat('o_kitija_first', .2); else if (f.left > f.order.time * .5) chat(pick(['o_fast1', 'o_fast2']), .2);
     this.ix++; addMin(1.2);
     if (this.ix >= this.list.length) { this.flow = null; D.parcels = this.parcels; this.finish(); }
     else this.start();

@@ -10,27 +10,27 @@ scene('call', {
   answer() {
     if (this.ph !== 'ring') return;
     loop('ring', false); sfx('ok'); progress(); this.ph = 'talk'; ui.task('');
-    ui.seq(['c_ieva1', 'c_ieva2'], () => {
+    ui.seq(['c_sniedze1', 'c_sniedze2'], () => {
       ui.say('c_q', null, {
         choices: [
-          { t: 'Es tikšu galā! 💪', fn: () => this.talk2('c_ieva3a') },
-          { t: 'Ak vai… labi, mēģināšu 😅', fn: () => this.talk2('c_ieva3b') }]
+          { t: 'Es tikšu galā! 💪', fn: () => this.talk2('c_sniedze3a') },
+          { t: 'Ak vai… labi, mēģināšu 😅', fn: () => this.talk2('c_sniedze3b') }]
       });
     });
   },
   talk2(id) {
-    ui.seq([id, 'c_ieva4', 'c_ieva5'], () => {
+    ui.seq([id, 'c_sniedze4', 'c_sniedze5'], () => {
       this.ph = 'after'; sfx('click');
       ui.say('c_nar1', () => this.chatPart());
     });
   },
   chatPart() {
     ui.task('Kolēģes tev raksta čatā 👇');
-    chat('c_sys1', .2); chat('c_dace1', .4); chat('c_zane1', .3); chat('c_ieva6', .3, () => {
+    chat('c_sys1', .2); chat('c_agrita1', .4); chat('c_kitija1', .3); chat('c_sniedze6', .3, () => {
       ui.replies([
-        { t: 'Sveikas! Turieties! ❤️', fn: () => chat('c_dace2', 0, () => this.ready()) },
-        { t: 'Bez panikas, tieku galā 💪', fn: () => chat('c_zane2', 0, () => this.ready()) },
-        { t: 'Kur ir kafija? ☕', fn: () => chat('c_ieva7', 0, () => this.ready()) }]);
+        { t: 'Sveikas! Turieties! ❤️', fn: () => chat('c_agrita2', 0, () => this.ready()) },
+        { t: 'Bez panikas, tieku galā 💪', fn: () => chat('c_kitija2', 0, () => this.ready()) },
+        { t: 'Kur ir kafija? ☕', fn: () => chat('c_sniedze7', 0, () => this.ready()) }]);
     });
   },
   ready() {
@@ -59,8 +59,8 @@ scene('call', {
       const x = 180, y = 70;
       box(x, y, 240, 440, '#1c1c1e', 32); box(x + 10, y + 12, 220, 416, lgrad(0, y, 0, y + 420, ['#34495e', '#1a5276', '#0e6655']), 24);
       txt(this.ph === 'ring' ? 'Ienākošais zvans' : 'Saruna · 0:' + String(Math.floor(this.callT)).padStart(2, '0'), x + 120, y + 52, 15, '#d6eaf8', 'center', 600);
-      circ(x + 120, y + 140, 46, '#f5cba7'); txt('I', x + 120, y + 142, 42, '#a04000', 'center', 800);
-      txt('Ieva', x + 120, y + 212, 30, '#fff', 'center', 800); txt('vadītāja', x + 120, y + 240, 17, '#d6eaf8', 'center', 600);
+      circ(x + 120, y + 140, 46, '#f5cba7'); txt('S', x + 120, y + 142, 42, '#a04000', 'center', 800);
+      txt('Sniedze', x + 120, y + 212, 30, '#fff', 'center', 800); txt('vadītāja', x + 120, y + 240, 17, '#d6eaf8', 'center', 600);
       if (this.ph === 'ring') {
         const p = (TT * 2) % 1;
         ring(x + 120, y + 140, 46 + p * 30, 'rgba(255,255,255,' + (1 - p) * .5 + ')', 3);

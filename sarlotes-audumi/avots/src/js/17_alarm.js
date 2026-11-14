@@ -18,7 +18,7 @@ scene('alarm', {
     if (this.code === '1234') return this.success(false);
     this.wrong++; sfx('bad'); this.msg = 'KĻŪDA'; this.code = '';
     setTimeout(() => this.msg = '', 900);
-    if (this.wrong === 1) chat('a_dace_hint'); if (this.wrong === 2) chat('a_ieva_hint');
+    if (this.wrong === 1) chat('a_agrita_hint'); if (this.wrong === 2) chat('a_sniedze_hint');
   },
   success(byGuard) {
     this.done = true; this.code = '1234'; loop('siren', false); sfx('win'); this.msg = 'ATSLĒGTS ✔';

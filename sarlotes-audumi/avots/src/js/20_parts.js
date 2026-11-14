@@ -284,7 +284,7 @@ function makeCash() {
     slotR(i) { return R(30 + (i % 3) * 184, 250 + Math.floor(i / 3) * 120, 172, 108); },
     down(x, y) {
       if (this.ph === 'power') { if (dist(x, y, 520, 90) < 46) { this.ph = 'count'; sfx('beep'); sfx('cash'); progress(); } return; }
-      if (this.ph === 'count') { DRAWER.forEach((d, i) => { if (!this.counted.includes(i) && inR(x, y, this.slotR(i))) { this.counted.push(i); sfx('paper'); setTimeout(() => sfx('coin'), 150); progress(); if (this.counted.length === DRAWER.length) { this.ph = 'missing'; setTimeout(() => { sfx('bad'); chat('p_zane_5'); }, 400); } } }); return; }
+      if (this.ph === 'count') { DRAWER.forEach((d, i) => { if (!this.counted.includes(i) && inR(x, y, this.slotR(i))) { this.counted.push(i); sfx('paper'); setTimeout(() => sfx('coin'), 150); progress(); if (this.counted.length === DRAWER.length) { this.ph = 'missing'; setTimeout(() => { sfx('bad'); chat('p_kitija_5'); }, 400); } } }); return; }
       if (this.ph === 'missing') { if (inR(x, y, R(30, 500, 540, 70))) { this.found = true; this.ph = 'ok'; sfx('win'); burst(300, 530, ['#a9cce3', '#fff'], 14); progress(); setTimeout(() => this.done = true, 1300); } }
     },
     update(dt) { this.t += dt; },

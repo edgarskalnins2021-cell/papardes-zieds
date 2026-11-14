@@ -78,7 +78,7 @@ scene('dark', {
     this.lit = true; this.litT = 0; this.path = []; sfx('click'); progress();
     setTimeout(() => sfx('flick'), 150); setTimeout(() => sfx('flick'), 450); setTimeout(() => sfx('hum'), 700);
     setTimeout(() => ui.say('d_light', () => {
-      award(Math.max(6, 20 - Math.floor(this.t / 12)), 300, 300); chat('d_zane_light', .2); setMin(9 * 60 + 41);
+      award(Math.max(6, 20 - Math.floor(this.t / 12)), 300, 300); chat('d_kitija_light', .2); setMin(9 * 60 + 41);
       ui.task('Gaisma ir! Tagad jāsagatavo veikals līdz 10:00.');
       ui.btns([{ t: '☕ Sākt darbu', id: 'goBtn', fn: () => go('prep') }]);
     }), 1500);

@@ -50,7 +50,7 @@ function addMin(dm) { if (D) setMin(D.min + dm); }
 /* ---------- teksti un balsis ---------- */
 let LINES = {};
 const SPK = {
-  ieva: ['Ieva (vadītāja)', '#b45309'], dace: ['Dace', '#0f766e'], zane: ['Zane', '#7c3aed'], me: ['Tu', '#2563eb'],
+  sniedze: ['Sniedze (vadītāja)', '#b45309'], agrita: ['Agrita', '#0f766e'], kitija: ['Kitija', '#7c3aed'], me: ['Tu', '#2563eb'],
   nar: ['', '#6b5e55'], sys: ['', '#6b5e55'], barista: ['Bārists Toms', '#92400e'], kl: ['Kliente', '#be185d'],
   klv: ['Klients', '#1d4ed8'], kurjers: ['Kurjers', '#ea580c'], apsargs: ['Apsardze', '#475569']
 };

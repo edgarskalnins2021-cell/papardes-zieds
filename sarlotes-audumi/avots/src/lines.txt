@@ -1,38 +1,38 @@
 # Šarlotes audumi — visi spēles teksti.  ID | runātājs | teksts
-# Runātāji: ieva, dace, zane (kolēģes), nar (stāstnieks), sys (sistēmas ziņa čatā), barista, kl (kliente), klv (klients), kurjers, apsargs, me (tu)
+# Runātāji: sniedze (vadītāja), agrita, kitija (kolēģes), nar (stāstnieks), sys (sistēmas ziņa čatā), barista, kl (kliente), klv (klients), kurjers, apsargs, me (tu)
 # {name} = spēlētājas vārds (to balsī neieraksta)
 
 # ---------- 1. Rīta zvans ----------
-c_hint | zane | Psst, atbildi uz zvanu — tā ir Ieva! 📞
-c_ieva1 | ieva | Labrīt! Piedod, ka modinu tik agri. Klausies… mēs visas esam saslimušas: es, Dace un Zane.
-c_ieva2 | ieva | Tu šodien esi vienīgā, kas var atvērt veikalu. Jā, es zinu, tā ir tava pirmā diena…
+c_hint | kitija | Psst, atbildi uz zvanu — tā ir Sniedze! 📞
+c_sniedze1 | sniedze | Labrīt! Piedod, ka modinu tik agri. Klausies… mēs visas esam saslimušas: es, Agrita un Kitija.
+c_sniedze2 | sniedze | Tu šodien esi vienīgā, kas var atvērt veikalu. Jā, es zinu, tā ir tava pirmā diena…
 c_q | nar | Ko tu atbildi?
-c_ieva3a | ieva | Tā jau es domāju! Tev viss ies kā pa diedziņu.
-c_ieva3b | ieva | Neuztraucies! Mēs visu dienu būsim čatā un palīdzēsim.
-c_ieva4 | ieva | Veikals jāatver desmitos. Atslēgas Zane kaut kur noslēpa pie durvīm, viņa tev pateiks.
-c_ieva5 | ieva | Un vēl: bez stipras kafijas tur neko nevar. Veiksmi, mīļā!
+c_sniedze3a | sniedze | Tā jau es domāju! Tev viss ies kā pa diedziņu.
+c_sniedze3b | sniedze | Neuztraucies! Mēs visu dienu būsim čatā un palīdzēsim.
+c_sniedze4 | sniedze | Veikals jāatver desmitos. Atslēgas Kitija kaut kur noslēpa pie durvīm, viņa tev pateiks.
+c_sniedze5 | sniedze | Un vēl: bez stipras kafijas tur neko nevar. Veiksmi, mīļā!
 c_nar1 | nar | Klik. Pulkstenis rāda 8:40. Laiks celties!
-c_sys1 | sys | Ieva pievienoja tevi grupai «Šarlotes audumi 🧵»
-c_dace1 | dace | Sveika, {name}! 🤧 Esmu zem trim segām, bet ar sirdi veikalā
-c_zane1 | zane | Atvaino par atslēgām 🙈 Kad būsi pie durvīm, es tev palīdzēšu!
-c_ieva6 | ieva | Meitenes, mūsu jaunā zvaigzne ir klāt! ⭐
-c_dace2 | dace | Paldies, mīļā ❤️ Ar tēju un medu domās esam ar tevi
-c_zane2 | zane | Tā runā īsta šuvēja! 🧵💪
-c_ieva7 | ieva | Kafija ir pirmajā vietā! Pa ceļam ir laba kafejnīca ☕
+c_sys1 | sys | Sniedze pievienoja tevi grupai «Šarlotes audumi 🧵»
+c_agrita1 | agrita | Sveika, {name}! 🤧 Esmu zem trim segām, bet ar sirdi veikalā
+c_kitija1 | kitija | Atvaino par atslēgām 🙈 Kad būsi pie durvīm, es tev palīdzēšu!
+c_sniedze6 | sniedze | Meitenes, mūsu jaunā zvaigzne ir klāt! ⭐
+c_agrita2 | agrita | Paldies, mīļā ❤️ Ar tēju un medu domās esam ar tevi
+c_kitija2 | kitija | Tā runā īsta šuvēja! 🧵💪
+c_sniedze7 | sniedze | Kafija ir pirmajā vietā! Pa ceļam ir laba kafejnīca ☕
 
 # ---------- 2. Rīta steiga ----------
-m_hint1 | dace | Velc ar pirkstu! Sega pati nost nenāks 😄
-m_hint2 | zane | Ja kaut kas neiet, mēģini vilkt lēnāk un ilgāk 🙂
-m_zane_fast | zane | Tik ātri?! Es 20 minūtes meklēju otru zeķi 😂
-m_dace_slow | dace | Galvenais — tīri zobi un smaids! 😁
+m_hint1 | agrita | Velc ar pirkstu! Sega pati nost nenāks 😄
+m_hint2 | kitija | Ja kaut kas neiet, mēģini vilkt lēnāk un ilgāk 🙂
+m_kitija_fast | kitija | Tik ātri?! Es 20 minūtes meklēju otru zeķi 😂
+m_agrita_slow | agrita | Galvenais — tīri zobi un smaids! 😁
 
 # ---------- 3. Ar riteni ----------
-b_hint | dace | Spied tieši tad, kad punktiņš ir zaļajā joslā! 🚲
+b_hint | agrita | Spied tieši tad, kad punktiņš ir zaļajā joslā! 🚲
 b_flat | nar | Pššš… Riepa pārdurta! Bet paskaties — tieši blakus ir kafejnīca.
-b_dace | dace | Riepa?! 😱 Tā ir zīme — laiks kafijai ☕
+b_agrita | agrita | Riepa?! 😱 Tā ir zīme — laiks kafijai ☕
 
 # ---------- 4. Kafejnīca ----------
-cf_hint | zane | Turi pogu un atlaid, kad kafija ir pie zaļās svītras ☕
+cf_hint | kitija | Turi pogu un atlaid, kad kafija ir pie zaļās svītras ☕
 cf_bar1 | barista | Labrīt! Oho, riepa pagalam? Nekas, kafija visu salabos. Ko tev?
 cf_r_black | barista | Melna kā rudens nakts. Stipra izvēle!
 cf_r_capp | barista | Kapučīno ar sirsniņu putās — tūlīt būs!
@@ -41,89 +41,89 @@ cf_r_cocoa | barista | Kakao? Tu man patīc! Putukrējums būs.
 cf_bar_bye | barista | Lūdzu! Un uzmanīgi — ārā peļķes, un vējš lauž zarus.
 
 # ---------- 5. Skrējiens ----------
-r_hint | zane | Lec pirms peļķes, nevis pašā peļķē 😉
-r_zane_dry | zane | Ne pilītes neizlieji? Tu esi īsta ninja! 🥷☕
-r_dace_wet | dace | Kafija mazliet izlija, bet galvenais — tu esi klāt! 🏃‍♀️
+r_hint | kitija | Lec pirms peļķes, nevis pašā peļķē 😉
+r_kitija_dry | kitija | Ne pilītes neizlieji? Tu esi īsta ninja! 🥷☕
+r_agrita_wet | agrita | Kafija mazliet izlija, bet galvenais — tu esi klāt! 🏃‍♀️
 
 # ---------- 6. Atslēgas ----------
-k_hint | dace | Padomā, kur Zane noteikti NEliktu atslēgas 🤔
-k_zane1 | zane | Atslēgas! 🙈 Es tās noslēpu… Puķu podu es viena nemaz nevaru pacelt, un miskastē es rokas nebāztu ne par ko 🤢
+k_hint | agrita | Padomā, kur Kitija noteikti NEliktu atslēgas 🤔
+k_kitija1 | kitija | Atslēgas! 🙈 Es tās noslēpu… Puķu podu es viena nemaz nevaru pacelt, un miskastē es rokas nebāztu ne par ko 🤢
 k_obs_pot | nar | Liels, smags pods ar krizantēmām. Zeme ap to nav kustināta.
 k_obs_bin | nar | Pilna miskaste. Smarža… nu, ne pēc rozēm. 🤢
 k_obs_mat | nar | Kājslauķis. Viens stūris ir mazliet pacelts…
 k_pot_no | nar | Tu ar pūlēm paceļ podu… Zem tā tikai slieka. Sveika, slieka! 🪱
 k_bin_no | nar | Fui! Banāna miza un vakardienas pīrādziņš. Atslēgu nav.
-k_dace_pot | dace | Haha, to podu pat Ieva nevar pacelt 😂
-k_zane_bin | zane | Es taču teicu — tur es rokas nebāztu! 🤢
+k_agrita_pot | agrita | Haha, to podu pat Sniedze nevar pacelt 😂
+k_kitija_bin | kitija | Es taču teicu — tur es rokas nebāztu! 🤢
 k_mat_yes | nar | Tu pacel kājslauķi… Bingo! Atslēgas! 🔑
 k_time | nar | Pulkstenis rāda 9:35. Veikals jāatver 10:00, bet darāmā vēl ir daudz!
-k_zane_good | zane | Uzreiz atradi?! Tu esi īsta detektīve 🕵️‍♀️
+k_kitija_good | kitija | Uzreiz atradi?! Tu esi īsta detektīve 🕵️‍♀️
 
 # ---------- 7. Signalizācija ----------
-a_hint_idle | zane | Signalizācijai vajag četrus ciparus 🔢 Paskaties uz pogām!
+a_hint_idle | kitija | Signalizācijai vajag četrus ciparus 🔢 Paskaties uz pogām!
 a_nar1 | nar | Tu atver durvis un… iiiii! Ieslēdzas signalizācija! Par to tev neviens neko neteica.
-a_dace_hint | dace | Paskaties uz pogām cieši 🔍 Kuras ir visnodilušākās?
-a_ieva_hint | ieva | Kods ir tik vienkāršs, ka pat es to atceros 😅
+a_agrita_hint | agrita | Paskaties uz pogām cieši 🔍 Kuras ir visnodilušākās?
+a_sniedze_hint | sniedze | Kods ir tik vienkāršs, ka pat es to atceros 😅
 a_ok | nar | Klusums. Tu nemaz nesabijies: ieraudzīji spīdīgās pogas un nospiedi vienkāršāko kombināciju.
 a_guard | apsargs | Apsardze klausās! Kas tur notiek? … Ā, jaunā kolēģe! Kods ir viens, divi, trīs, četri. Labu dienu!
 a_guard_ok | nar | Tu ievadi 1-2-3-4, un sirēna apklust. Nākamreiz atcerēsies!
 
 # ---------- 8. Rullo vārti ----------
-sh_hint | dace | Spied tieši tad, kad rādītājs ir zaļajā! 💪
+sh_hint | agrita | Spied tieši tad, kad rādītājs ir zaļajā! 💪
 sh_jam | nar | Krak! Vārti pacēlās mazliet un iesprūda. Te vajag spēku!
-sh_dace | dace | Tie vārti vienmēr iesprūst! Ar abām rokām un «hop!» 💪
+sh_agrita | agrita | Tie vārti vienmēr iesprūst! Ar abām rokām un «hop!» 💪
 sh_ok | nar | Vārti saritinās augšā vienā rullī. Bet iekšā… pilnīga tumsa.
 
 # ---------- 9. Tumšais veikals ----------
-d_hint1 | zane | Slēdzis ir pie pašas tālākās sienas, kreisajā pusē 👈
-d_hint2 | dace | Meklē mazu zilu gaismiņu! Tā ir maziņa, bet spīd 💙
+d_hint1 | kitija | Slēdzis ir pie pašas tālākās sienas, kreisajā pusē 👈
+d_hint2 | agrita | Meklē mazu zilu gaismiņu! Tā ir maziņa, bet spīd 💙
 d_light | nar | Klik! Lampas iemirgojas, un te nu tas ir — tavs veikals šodien.
-d_zane_light | zane | Tu atradi slēdzi! Es pirmajā dienā to meklēju pusstundu 😅
+d_kitija_light | kitija | Tu atradi slēdzi! Es pirmajā dienā to meklēju pusstundu 😅
 
 # ---------- 10. Pirms atvēršanas ----------
-p_hint | zane | Pieskaries apaļajām zīmēm veikalā — tur ir darbi ☕🧹💶🖨
-p_dace1 | dace | Vispirms kafija! Tad viss pārējais ☕
-p_ieva_coffee | ieva | Smaržo līdz pat manai gultai ☕😄
-p_dace_vac | dace | Spīd kā jauna! No audumiem putekļi rodas ātri, tāpēc vēlāk vēl jāpasūc 🧹
-p_zane_cash | zane | Tā piecīte! 🙈 Paldies, ka atradi!
-p_zane_5 | zane | Ak, vakar viena piecīte iekrita zem atvilktnes 🙈 Paskaties apakšā!
-p_ieva_print | ieva | Printeris vienmēr iestrēgst pie pirmās lapas. Tagad tu zini viņa noslēpumu 😉
+p_hint | kitija | Pieskaries apaļajām zīmēm veikalā — tur ir darbi ☕🧹💶🖨
+p_agrita1 | agrita | Vispirms kafija! Tad viss pārējais ☕
+p_sniedze_coffee | sniedze | Smaržo līdz pat manai gultai ☕😄
+p_agrita_vac | agrita | Spīd kā jauna! No audumiem putekļi rodas ātri, tāpēc vēlāk vēl jāpasūc 🧹
+p_kitija_cash | kitija | Tā piecīte! 🙈 Paldies, ka atradi!
+p_kitija_5 | kitija | Ak, vakar viena piecīte iekrita zem atvilktnes 🙈 Paskaties apakšā!
+p_sniedze_print | sniedze | Printeris vienmēr iestrēgst pie pirmās lapas. Tagad tu zini viņa noslēpumu 😉
 p_done | nar | Kafija iedzerta, grīda tīra, kase sakrīt, pasūtījumi izdrukāti. Tagad jāsakomplektē pieci interneta pasūtījumi.
 
 # ---------- 11. Interneta pasūtījumi ----------
-o_hint1 | zane | Cilnes ir virs precēm: Audumi, Dzija, Piederumi. Pasūtījuma lapiņa ir pašā augšā 📋
-o_hint2 | dace | Audumu velc pa labi līdz zaļajai līnijai un spied «Griezt» ✂
+o_hint1 | kitija | Cilnes ir virs precēm: Audumi, Dzija, Piederumi. Pasūtījuma lapiņa ir pašā augšā 📋
+o_hint2 | agrita | Audumu velc pa labi līdz zaļajai līnijai un spied «Griezt» ✂
 o_intro | nar | Pieci pasūtījumi kā restorānā: savāc preces, nogriez audumu, sapako, uzlīmē uzlīmi un ieliec pelēkajā kastē. Katram ir savs taimeris!
-o_zane_first | zane | Pirmā paka gatava! 📦 Tu esi dzimusi šim darbam
-o_fast1 | dace | Ātrāk nekā es! 😮
-o_fast2 | ieva | Pircējas būs priecīgas — tik ātri! 💛
+o_kitija_first | kitija | Pirmā paka gatava! 📦 Tu esi dzimusi šim darbam
+o_fast1 | agrita | Ātrāk nekā es! 😮
+o_fast2 | sniedze | Pircējas būs priecīgas — tik ātri! 💛
 o_done | nar | Pieci pasūtījumi ir pelēkajā kastē! Tagad tie jāaiznes uz oranžo pakomātu.
 
 # ---------- 12. Pakomāts ----------
-l_hint | zane | Lielā paka iet lielajā nodalījumā. Sāc ar lielākajām! 📦
+l_hint | kitija | Lielā paka iet lielajā nodalījumā. Sāc ar lielākajām! 📦
 l_done | nar | Durtiņas aizveras viena pēc otras: klak, klak, klak. Pakas ir ceļā pie pircējām!
-l_zane_tetris | zane | Kā tetrisā! Neviena lieka vieta 🧩
-l_dace | dace | Visas pakas ceļā! Bravo 👏
+l_kitija_tetris | kitija | Kā tetrisā! Neviena lieka vieta 🧩
+l_agrita | agrita | Visas pakas ceļā! Bravo 👏
 
 # ---------- 13. Veikals atvērts ----------
-op_hint1 | dace | Pieskaries klientei ar zīmīti virs galvas: 📍 jautā, kur kas ir; ❓ ir jautājums; ✂️ grib audumu; 💶 maksā
-op_hint2 | zane | Neaizmirsti putekļus un pasūtījumus! Pogas ir zem uzdevuma 🧹📦
+op_hint1 | agrita | Pieskaries klientei ar zīmīti virs galvas: 📍 jautā, kur kas ir; ❓ ir jautājums; ✂️ grib audumu; 💶 maksā
+op_hint2 | kitija | Neaizmirsti putekļus un pasūtījumus! Pogas ir zem uzdevuma 🧹📦
 op_open | nar | Desmit! Tu apgriez zīmi uz «Atvērts», un durvju zvaniņš jau skan.
-op_ieva_open | ieva | Veikals ir vaļā! Esmu tik lepna 🥹
-op_ieva_order | ieva | Ienāca jauns interneta pasūtījums! Lapiņa ir pie pelēkās kastes 🖨
-op_dace_tea | dace | Esmu izdzērusi jau sesto tasi tējas ☕ Kā tev iet?
-op_dace_tea2 | dace | Turos! Domās esmu tur ar tevi 🫶
-op_zane_cool | zane | Redzu, ka tu esi dzimusi pārdevēja 😎
-op_zane_selfie | zane | Mans kaķis guļ uz manis un neļauj celties 🐈 Tu esi mūsu varone!
-op_ieva_lunch | ieva | Pusdienlaiks! Neaizmirsti iedzert ūdeni 💧
-op_dace_photo | dace | Mana mamma teica, ka atnāks pēc dzijas 😄 Viņai patīk zilā!
-op_ieva_almost | ieva | Vēl drusciņ līdz 14:00! Tu esi brīnišķīga 🌟
-op_zane_dust | zane | Putekļu jau kā sniega 🙈 Sūcējs ir stūrī!
-op_dace_angry | dace | Neuztraucies, ka viena aizgāja. Tā gadās arī mums 💛
-op_zane_smart | zane | Tu zini atbildi? Tu esi gudrāka par mani 😅
-op_ieva_courier | ieva | Kurjers paņēma pakas! 📦👋
-op_vac1 | dace | Tīrs kā aptiekā! ✨
-op_vac2 | zane | Putekļi uzvarēti! 🧹💪
+op_sniedze_open | sniedze | Veikals ir vaļā! Esmu tik lepna 🥹
+op_sniedze_order | sniedze | Ienāca jauns interneta pasūtījums! Lapiņa ir pie pelēkās kastes 🖨
+op_agrita_tea | agrita | Esmu izdzērusi jau sesto tasi tējas ☕ Kā tev iet?
+op_agrita_tea2 | agrita | Turos! Domās esmu tur ar tevi 🫶
+op_kitija_cool | kitija | Redzu, ka tu esi dzimusi pārdevēja 😎
+op_kitija_selfie | kitija | Mans kaķis guļ uz manis un neļauj celties 🐈 Tu esi mūsu varone!
+op_sniedze_lunch | sniedze | Pusdienlaiks! Neaizmirsti iedzert ūdeni 💧
+op_agrita_photo | agrita | Mana mamma teica, ka atnāks pēc dzijas 😄 Viņai patīk zilā!
+op_sniedze_almost | sniedze | Vēl drusciņ līdz 14:00! Tu esi brīnišķīga 🌟
+op_kitija_dust | kitija | Putekļu jau kā sniega 🙈 Sūcējs ir stūrī!
+op_agrita_angry | agrita | Neuztraucies, ka viena aizgāja. Tā gadās arī mums 💛
+op_kitija_smart | kitija | Tu zini atbildi? Tu esi gudrāka par mani 😅
+op_sniedze_courier | sniedze | Kurjers paņēma pakas! 📦👋
+op_vac1 | agrita | Tīrs kā aptiekā! ✨
+op_vac2 | kitija | Putekļi uzvarēti! 🧹💪
 op_close | nar | Pulkstenis ir 14:00! Tu aizslēdz durvis un dziļi ievelc elpu.
 
 # klientes: kur kas ir
@@ -186,9 +186,9 @@ cl_1 | nar | Tu apgriez zīmi uz «Slēgts». Atliek pārbaudīt kasi.
 cl_cashq | nar | Cik naudas tagad jābūt kases atvilktnē?
 cl_cash_ok | nar | Pareizi! Kartes maksājumi atvilktnē naudu nepieliek, tāpēc skaita tikai skaidro naudu. Kase sakrīt!
 cl_cash_no | nar | Ne gluži. Atvilktnē ir rīta nauda plus šodienas skaidrā nauda. Kartes maksājumi tajā nenonāk.
-cl_ieva | ieva | {name}, tu esi brīnums! ❤️ Paldies, ka izglābi dienu!
-cl_dace | dace | Rīt varbūt atkal? 😄 Es vēl šķaudu…
-cl_zane | zane | Nosūti savu rezultātu draudzenēm — lai pamēģina! 🧵
+cl_sniedze | sniedze | {name}, tu esi brīnums! ❤️ Paldies, ka izglābi dienu!
+cl_agrita | agrita | Rīt varbūt atkal? 😄 Es vēl šķaudu…
+cl_kitija | kitija | Nosūti savu rezultātu draudzenēm — lai pamēģina! 🧵
 
 # ---------- Klientu jautājumi: a = pareizā atbilde, x = klientes paskaidrojums ----------
 q01 | kl | Vai audumu pirms šūšanas vajag izmazgāt?

@@ -71,7 +71,7 @@ scene('close', {
     const st = dayStats(), title = dayTitle(st);
     S.days++; S.best = Math.max(S.best || 0, st.coins); S.hist.push({ d: D.date, c: st.coins, t: title }); if (S.hist.length > 30) S.hist.shift();
     S.day = null; save();
-    chat('cl_ieva', .4); chat('cl_dace', .3); chat('cl_zane', .3);
+    chat('cl_sniedze', .4); chat('cl_agrita', .3); chat('cl_kitija', .3);
     const text = shareText(st, title); this.text = text;
     const row = (a, b) => '<div class="row"><span>' + a + '</span><b>' + b + '</b></div>';
     const html = '<h2>Diena galā! 🎉</h2><p style="font-size:22px;margin:4px 0 10px">🏆 <b>' + title + '</b></p>' +

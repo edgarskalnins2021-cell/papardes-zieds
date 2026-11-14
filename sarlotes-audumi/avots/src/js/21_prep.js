@@ -9,7 +9,7 @@ scene('prep', {
   hints: ['p_hint'],
   enter() {
     setMin(9 * 60 + 41); this.done = {}; this.comp = null; this.cur = null; this.fin = false;
-    D.dust = 60; chat('p_dace1', .5); this.hub();
+    D.dust = 60; chat('p_agrita1', .5); this.hub();
   },
   hub() {
     this.comp = null; this.cur = null;
@@ -30,7 +30,7 @@ scene('prep', {
     award(n, p.x, p.y);
     if (p.id === 'cash') D.float = 132;
     if (p.id === 'vac') D.dust = 0;
-    chat({ coffee: 'p_ieva_coffee', vac: 'p_dace_vac', cash: 'p_zane_cash', print: 'p_ieva_print' }[p.id], .3);
+    chat({ coffee: 'p_sniedze_coffee', vac: 'p_agrita_vac', cash: 'p_kitija_cash', print: 'p_sniedze_print' }[p.id], .3);
     this.hub();
   },
   finish() {

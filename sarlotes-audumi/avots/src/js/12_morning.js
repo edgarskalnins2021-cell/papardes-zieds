@@ -31,7 +31,7 @@ scene('morning', {
     const fast = this.left > 0; D.morningOk = fast ? 1 : 0;
     award(10 + Math.min(20, Math.floor(Math.max(0, this.left) / 3)), 300, 250);
     ui.task(fast ? 'Gatava! Un vēl laiks palika. 👏' : 'Gatava! Mazliet ilgāk, bet nekas.');
-    chat(fast ? 'm_zane_fast' : 'm_dace_slow', .3);
+    chat(fast ? 'm_kitija_fast' : 'm_agrita_slow', .3);
     ui.btns([{ t: '🚲 Uz riteni!', id: 'goBtn', fn: () => go('bike') }]);
   },
   update(dt) {

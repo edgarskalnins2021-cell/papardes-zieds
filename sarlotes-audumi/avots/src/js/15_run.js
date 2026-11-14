@@ -49,7 +49,7 @@ scene('run', {
     this.done = true; setMin(9 * 60 + 35); ui.btns([]);
     award(4 * this.cleared + Math.round(D.coffee / 10), 300, 250);
     ui.task(D.coffee >= 100 ? 'Ne pilītes neizlieti! ☕✨' : 'Kafija mazliet izlija, bet tu esi klāt!', 'Pulkstenis: 9:35. Veikals jāatver 10:00.');
-    chat(D.coffee >= 100 ? 'r_zane_dry' : 'r_dace_wet', .4);
+    chat(D.coffee >= 100 ? 'r_kitija_dry' : 'r_agrita_wet', .4);
     ui.btns([{ t: '🔑 Pie durvīm', id: 'goBtn', fn: () => go('keys') }]);
   },
   down(x, y) { if (y < 330) this.jump(); else this.duck(); },

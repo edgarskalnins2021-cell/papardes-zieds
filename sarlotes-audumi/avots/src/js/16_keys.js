@@ -4,10 +4,10 @@ scene('keys', {
   hints: ['k_hint'],
   enter() {
     setMin(9 * 60 + 35); this.sel = null; this.tries = 0; this.searched = {}; this.anim = null; this.found = false;
-    chat('k_zane1', .6);
+    chat('k_kitija1', .6);
     this.idleTask();
   },
-  idleTask() { ui.task('Kur Zane noslēpa atslēgas? Pieskaries priekšmetam, lai to apskatītu.', 'Izlasi Zanes ziņu čatā 👇'); ui.btns([]); },
+  idleTask() { ui.task('Kur Kitija noslēpa atslēgas? Pieskaries priekšmetam, lai to apskatītu.', 'Izlasi Kitijas ziņu čatā 👇'); ui.btns([]); },
   pickObj(id) {
     if (this.anim || this.found) return;
     this.sel = id; sfx('tap'); progress();
@@ -24,13 +24,13 @@ scene('keys', {
         this.found = true; sfx('win'); burst(330, 490, ['#f1c40f', '#fff'], 18);
         ui.seq(['k_mat_yes', 'k_time'], () => {
           award([0, 20, 10, 5][this.tries] || 5, 300, 420);
-          if (this.tries === 1) chat('k_zane_good', .2);
+          if (this.tries === 1) chat('k_kitija_good', .2);
           ui.task('Atslēgas ir! 🔑', 'Veikals jāatver 10:00.');
           ui.btns([{ t: '🔑 Atslēgt durvis', id: 'goBtn', fn: () => go('alarm') }]);
         });
       } else {
         sfx('bad');
-        ui.say(id === 'pot' ? 'k_pot_no' : 'k_bin_no', () => { chat(id === 'pot' ? 'k_dace_pot' : 'k_zane_bin', .1); this.anim = null; this.sel = null; this.idleTask(); });
+        ui.say(id === 'pot' ? 'k_pot_no' : 'k_bin_no', () => { chat(id === 'pot' ? 'k_agrita_pot' : 'k_kitija_bin', .1); this.anim = null; this.sel = null; this.idleTask(); });
       }
     }, 900);
   },

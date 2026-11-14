@@ -58,7 +58,7 @@ with open(os.path.join(DIST, 'voice', 'manifest.js'), 'w', encoding='utf-8') as 
     f.write('window.SA_VOICES = ' + json.dumps([h for h in have if h in lines]) + ';\n')
 
 # ---- tabula balsu ierakstīšanai ----
-VOICE_HINT = {'ieva': 'Ieva, vadītāja (silta, 50 g.)', 'dace': 'Dace (jautra, 40 g.)', 'zane': 'Zane (jauna, 30 g.)',
+VOICE_HINT = {'sniedze': 'Sniedze, vadītāja', 'agrita': 'Agrita, kolēģe', 'kitija': 'Kitija, kolēģe',
               'nar': 'Stāstnieks', 'barista': 'Bārists Toms (30 g.)', 'kl': 'Kliente (45-70 g.)', 'klv': 'Klients (50-70 g.)',
               'kurjers': 'Kurjers', 'apsargs': 'Apsardzes darbinieks', 'me': 'Spēlētāja (tu)', 'sys': '(netiek ierakstīts)'}
 with open(os.path.join(DIST, 'Sarlotes_audumi_balsis.tsv'), 'w', encoding='utf-8') as f:
