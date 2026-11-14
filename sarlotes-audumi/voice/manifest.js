@@ -1,0 +1,1 @@
+window.SA_VOICES = [];
