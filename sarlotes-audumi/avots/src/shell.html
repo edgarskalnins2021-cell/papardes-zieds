@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Šarlotes audumi — viena diena veikalā</title>
+<meta name="description" content="Jautra spēle telefonā vai datorā: tava pirmā diena audumu un dzijas veikalā. Visi ir saslimuši — izturi līdz 14:00!">
+<meta name="theme-color" content="#3b2f2a">
+<!--__OG__-->
+<style>
+:root{--bg:#f7f0e6;--ink:#2b2420;--muted:#6b5e55;--accent:#c2410c;--teal:#0f766e;--card:#fffdf9;--line:#e6d8c6;--green:#dcf8c6}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:#2b2420;color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;-webkit-tap-highlight-color:transparent;overscroll-behavior:none}
+#app{display:flex;flex-direction:column;height:100vh;height:100dvh;max-width:1500px;margin:0 auto;background:var(--bg);overflow:hidden}
+#top{display:flex;align-items:center;gap:10px;padding:6px 10px;background:#3b2f2a;color:#fff;min-height:48px;flex:none}
+#top .pill{background:rgba(255,255,255,.12);border-radius:999px;padding:5px 12px;font-size:20px;font-weight:800;white-space:nowrap}
+#top .grow{flex:1;font-size:15px;opacity:.85;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#top button{background:rgba(255,255,255,.14);color:#fff;border:0;border-radius:12px;font-size:22px;min-width:46px;height:42px;cursor:pointer}
+#main{flex:1;display:flex;flex-direction:column;min-height:0}
+#stage{position:relative;flex:none;margin:0 auto;background:#1d1714}
+#cv{width:100%;height:100%;display:block;touch-action:none;cursor:pointer}
+#side{flex:1;display:flex;flex-direction:column;min-height:0;padding:8px 10px 10px;gap:8px;overflow:hidden}
+body.wide #main{flex-direction:row}
+body.wide #stage{margin:0}
+body.wide #side{padding:12px 14px}
+#say{background:var(--card);border:2px solid var(--line);border-radius:16px;padding:10px 14px 12px;box-shadow:0 2px 0 rgba(0,0,0,.05);flex:none}
+#say.hide,#task.hide,#replies.hide{display:none}
+#sayWho{font-weight:800;font-size:16px;margin-bottom:2px}
+#sayTxt{font-size:20px;line-height:1.35;font-weight:600}
+#sayBtns{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+#task{font-size:19px;line-height:1.3;font-weight:700;background:#fff3e0;border-left:6px solid var(--accent);border-radius:10px;padding:8px 12px;flex:none}
+#task small{display:block;font-weight:600;font-size:16px;color:var(--muted);margin-top:2px}
+#btns{display:flex;flex-wrap:wrap;gap:8px;flex:none}
+.btn{font:inherit;font-size:19px;font-weight:800;min-height:54px;padding:10px 18px;border-radius:14px;border:0;background:var(--accent);color:#fff;cursor:pointer;box-shadow:0 3px 0 #7c2d12;flex:1 1 auto}
+.btn.alt{background:#fff;color:var(--ink);border:2px solid var(--line);box-shadow:0 3px 0 var(--line)}
+.btn.teal{background:var(--teal);box-shadow:0 3px 0 #134e4a}
+.btn.choice{background:#fff;color:var(--ink);border:2px solid #d6c3ad;box-shadow:0 3px 0 #d6c3ad;text-align:left;flex:1 1 100%;font-weight:700}
+.btn:active{transform:translateY(2px);box-shadow:none}
+.btn:disabled{opacity:.45;cursor:default}
+#chat{flex:1;min-height:90px;display:flex;flex-direction:column;background:#efe6d8;border-radius:16px;overflow:hidden;border:2px solid var(--line)}
+#chatHead{background:var(--teal);color:#fff;padding:7px 12px;font-weight:800;font-size:16px;display:flex;gap:8px;align-items:center;flex:none;cursor:pointer}
+#chatHead span{font-weight:500;opacity:.85;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#msgs{flex:1;overflow-y:auto;padding:8px 10px;display:flex;flex-direction:column;gap:6px}
+.m{max-width:86%;padding:7px 11px 8px;border-radius:14px;font-size:17px;line-height:1.3;background:#fff;align-self:flex-start;box-shadow:0 1px 0 rgba(0,0,0,.08);animation:pop .25s ease-out}
+.m b{display:block;font-size:14px;margin-bottom:1px}
+.m.me{align-self:flex-end;background:var(--green)}
+.m.sys{align-self:center;background:#fdf6e3;color:var(--muted);font-size:14px;max-width:95%;text-align:center}
+.m.typing{color:var(--muted);font-style:italic;font-size:15px}
+@keyframes pop{from{transform:scale(.85);opacity:0}to{transform:none;opacity:1}}
+#replies{display:flex;flex-wrap:wrap;gap:6px;padding:6px 8px;border-top:1px solid var(--line);background:#f7f0e6;flex:none}
+.chip{font:inherit;font-size:16px;font-weight:700;padding:8px 12px;border-radius:999px;border:2px solid var(--teal);background:#fff;color:var(--teal);cursor:pointer}
+#ov{position:fixed;inset:0;background:rgba(30,20,15,.55);display:flex;align-items:center;justify-content:center;padding:12px;z-index:20}
+#ov.hide{display:none}
+#ovBox{background:var(--card);border-radius:20px;max-width:560px;width:100%;max-height:92vh;overflow-y:auto;padding:18px 18px 16px;box-shadow:0 10px 40px rgba(0,0,0,.35)}
+#ovBox h2{margin:0 0 8px;font-size:26px}
+#ovBox p{font-size:18px;line-height:1.4;margin:6px 0}
+#ovBox input{font:inherit;font-size:22px;padding:10px 12px;border-radius:12px;border:2px solid var(--line);width:100%}
+.ovBtns{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.row{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:9px 4px;border-bottom:1px solid var(--line);font-size:18px}
+.row b{font-size:19px}
+.shopItem{display:flex;gap:10px;align-items:center;padding:10px 4px;border-bottom:1px solid var(--line)}
+.shopItem .ic{font-size:34px;width:46px;text-align:center}
+.shopItem .tx{flex:1;font-size:17px;line-height:1.3}
+.shopItem .tx b{font-size:18px}
+.shopItem .btn{flex:none;min-height:46px;font-size:17px;padding:8px 14px}
+.shareBox{white-space:pre-wrap;background:#f3ead9;border-radius:12px;padding:10px 12px;font-size:17px;line-height:1.4;margin-top:8px}
+#toast{position:fixed;left:50%;top:64px;transform:translateX(-50%);background:#3b2f2a;color:#fff;padding:10px 16px;border-radius:12px;font-size:18px;font-weight:700;z-index:30;opacity:0;transition:opacity .25s;pointer-events:none;max-width:90vw;text-align:center}
+#toast.on{opacity:1}
+.tempo{display:flex;flex-direction:column;gap:8px;margin-top:10px}
+</style>
+</head>
+<body>
+<div id="app">
+  <header id="top">
+    <div class="pill" id="clock">⏰ --:--</div>
+    <div class="pill" id="coins">🧶 0</div>
+    <div class="grow" id="topTitle">Šarlotes audumi</div>
+    <button id="sndBtn" aria-label="Skaņa">🔊</button>
+    <button id="menuBtn" aria-label="Izvēlne">☰</button>
+  </header>
+  <main id="main">
+    <div id="stage"><canvas id="cv" aria-label="Spēles laukums"></canvas></div>
+    <aside id="side">
+      <div id="say" class="hide"><div id="sayWho"></div><div id="sayTxt"></div><div id="sayBtns"></div></div>
+      <div id="task" class="hide"></div>
+      <div id="btns"></div>
+      <div id="chat">
+        <div id="chatHead">🧵 Šarlotes audumi <span>Ieva, Dace, Zane, tu</span></div>
+        <div id="msgs"></div>
+        <div id="replies" class="hide"></div>
+      </div>
+    </aside>
+  </main>
+</div>
+<div id="ov" class="hide"><div id="ovBox"></div></div>
+<div id="toast"></div>
+<script src="voice/manifest.js" onerror="window.SA_VOICES=[]"></script>
+<script>
+/*__JS__*/
+</script>
+</body>
+</html>

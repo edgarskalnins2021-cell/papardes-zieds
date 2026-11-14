@@ -1,0 +1,373 @@
+# Šarlotes audumi — visi spēles teksti.  ID | runātājs | teksts
+# Runātāji: ieva, dace, zane (kolēģes), nar (stāstnieks), sys (sistēmas ziņa čatā), barista, kl (kliente), klv (klients), kurjers, apsargs, me (tu)
+# {name} = spēlētājas vārds (to balsī neieraksta)
+
+# ---------- 1. Rīta zvans ----------
+c_hint | zane | Psst, atbildi uz zvanu — tā ir Ieva! 📞
+c_ieva1 | ieva | Labrīt! Piedod, ka modinu tik agri. Klausies… mēs visas esam saslimušas: es, Dace un Zane.
+c_ieva2 | ieva | Tu šodien esi vienīgā, kas var atvērt veikalu. Jā, es zinu, tā ir tava pirmā diena…
+c_q | nar | Ko tu atbildi?
+c_ieva3a | ieva | Tā jau es domāju! Tev viss ies kā pa diedziņu.
+c_ieva3b | ieva | Neuztraucies! Mēs visu dienu būsim čatā un palīdzēsim.
+c_ieva4 | ieva | Veikals jāatver desmitos. Atslēgas Zane kaut kur noslēpa pie durvīm, viņa tev pateiks.
+c_ieva5 | ieva | Un vēl: bez stipras kafijas tur neko nevar. Veiksmi, mīļā!
+c_nar1 | nar | Klik. Pulkstenis rāda 8:40. Laiks celties!
+c_sys1 | sys | Ieva pievienoja tevi grupai «Šarlotes audumi 🧵»
+c_dace1 | dace | Sveika, {name}! 🤧 Esmu zem trim segām, bet ar sirdi veikalā
+c_zane1 | zane | Atvaino par atslēgām 🙈 Kad būsi pie durvīm, es tev palīdzēšu!
+c_ieva6 | ieva | Meitenes, mūsu jaunā zvaigzne ir klāt! ⭐
+c_dace2 | dace | Paldies, mīļā ❤️ Ar tēju un medu domās esam ar tevi
+c_zane2 | zane | Tā runā īsta šuvēja! 🧵💪
+c_ieva7 | ieva | Kafija ir pirmajā vietā! Pa ceļam ir laba kafejnīca ☕
+
+# ---------- 2. Rīta steiga ----------
+m_hint1 | dace | Velc ar pirkstu! Sega pati nost nenāks 😄
+m_hint2 | zane | Ja kaut kas neiet, mēģini vilkt lēnāk un ilgāk 🙂
+m_zane_fast | zane | Tik ātri?! Es 20 minūtes meklēju otru zeķi 😂
+m_dace_slow | dace | Galvenais — tīri zobi un smaids! 😁
+
+# ---------- 3. Ar riteni ----------
+b_hint | dace | Spied tieši tad, kad punktiņš ir zaļajā joslā! 🚲
+b_flat | nar | Pššš… Riepa pārdurta! Bet paskaties — tieši blakus ir kafejnīca.
+b_dace | dace | Riepa?! 😱 Tā ir zīme — laiks kafijai ☕
+
+# ---------- 4. Kafejnīca ----------
+cf_hint | zane | Turi pogu un atlaid, kad kafija ir pie zaļās svītras ☕
+cf_bar1 | barista | Labrīt! Oho, riepa pagalam? Nekas, kafija visu salabos. Ko tev?
+cf_r_black | barista | Melna kā rudens nakts. Stipra izvēle!
+cf_r_capp | barista | Kapučīno ar sirsniņu putās — tūlīt būs!
+cf_r_latte | barista | Saldi rīti ir labākie rīti. Karamele klāt!
+cf_r_cocoa | barista | Kakao? Tu man patīc! Putukrējums būs.
+cf_bar_bye | barista | Lūdzu! Un uzmanīgi — ārā peļķes, un vējš lauž zarus.
+
+# ---------- 5. Skrējiens ----------
+r_hint | zane | Lec pirms peļķes, nevis pašā peļķē 😉
+r_zane_dry | zane | Ne pilītes neizlieji? Tu esi īsta ninja! 🥷☕
+r_dace_wet | dace | Kafija mazliet izlija, bet galvenais — tu esi klāt! 🏃‍♀️
+
+# ---------- 6. Atslēgas ----------
+k_hint | dace | Padomā, kur Zane noteikti NEliktu atslēgas 🤔
+k_zane1 | zane | Atslēgas! 🙈 Es tās noslēpu… Puķu podu es viena nemaz nevaru pacelt, un miskastē es rokas nebāztu ne par ko 🤢
+k_obs_pot | nar | Liels, smags pods ar krizantēmām. Zeme ap to nav kustināta.
+k_obs_bin | nar | Pilna miskaste. Smarža… nu, ne pēc rozēm. 🤢
+k_obs_mat | nar | Kājslauķis. Viens stūris ir mazliet pacelts…
+k_pot_no | nar | Tu ar pūlēm paceļ podu… Zem tā tikai slieka. Sveika, slieka! 🪱
+k_bin_no | nar | Fui! Banāna miza un vakardienas pīrādziņš. Atslēgu nav.
+k_dace_pot | dace | Haha, to podu pat Ieva nevar pacelt 😂
+k_zane_bin | zane | Es taču teicu — tur es rokas nebāztu! 🤢
+k_mat_yes | nar | Tu pacel kājslauķi… Bingo! Atslēgas! 🔑
+k_time | nar | Pulkstenis rāda 9:35. Veikals jāatver 10:00, bet darāmā vēl ir daudz!
+k_zane_good | zane | Uzreiz atradi?! Tu esi īsta detektīve 🕵️‍♀️
+
+# ---------- 7. Signalizācija ----------
+a_hint_idle | zane | Signalizācijai vajag četrus ciparus 🔢 Paskaties uz pogām!
+a_nar1 | nar | Tu atver durvis un… iiiii! Ieslēdzas signalizācija! Par to tev neviens neko neteica.
+a_dace_hint | dace | Paskaties uz pogām cieši 🔍 Kuras ir visnodilušākās?
+a_ieva_hint | ieva | Kods ir tik vienkāršs, ka pat es to atceros 😅
+a_ok | nar | Klusums. Tu nemaz nesabijies: ieraudzīji spīdīgās pogas un nospiedi vienkāršāko kombināciju.
+a_guard | apsargs | Apsardze klausās! Kas tur notiek? … Ā, jaunā kolēģe! Kods ir viens, divi, trīs, četri. Labu dienu!
+a_guard_ok | nar | Tu ievadi 1-2-3-4, un sirēna apklust. Nākamreiz atcerēsies!
+
+# ---------- 8. Rullo vārti ----------
+sh_hint | dace | Spied tieši tad, kad rādītājs ir zaļajā! 💪
+sh_jam | nar | Krak! Vārti pacēlās mazliet un iesprūda. Te vajag spēku!
+sh_dace | dace | Tie vārti vienmēr iesprūst! Ar abām rokām un «hop!» 💪
+sh_ok | nar | Vārti saritinās augšā vienā rullī. Bet iekšā… pilnīga tumsa.
+
+# ---------- 9. Tumšais veikals ----------
+d_hint1 | zane | Slēdzis ir pie pašas tālākās sienas, kreisajā pusē 👈
+d_hint2 | dace | Meklē mazu zilu gaismiņu! Tā ir maziņa, bet spīd 💙
+d_light | nar | Klik! Lampas iemirgojas, un te nu tas ir — tavs veikals šodien.
+d_zane_light | zane | Tu atradi slēdzi! Es pirmajā dienā to meklēju pusstundu 😅
+
+# ---------- 10. Pirms atvēršanas ----------
+p_hint | zane | Pieskaries apaļajām zīmēm veikalā — tur ir darbi ☕🧹💶🖨
+p_dace1 | dace | Vispirms kafija! Tad viss pārējais ☕
+p_ieva_coffee | ieva | Smaržo līdz pat manai gultai ☕😄
+p_dace_vac | dace | Spīd kā jauna! No audumiem putekļi rodas ātri, tāpēc vēlāk vēl jāpasūc 🧹
+p_zane_cash | zane | Tā piecīte! 🙈 Paldies, ka atradi!
+p_zane_5 | zane | Ak, vakar viena piecīte iekrita zem atvilktnes 🙈 Paskaties apakšā!
+p_ieva_print | ieva | Printeris vienmēr iestrēgst pie pirmās lapas. Tagad tu zini viņa noslēpumu 😉
+p_done | nar | Kafija iedzerta, grīda tīra, kase sakrīt, pasūtījumi izdrukāti. Tagad jāsakomplektē pieci interneta pasūtījumi.
+
+# ---------- 11. Interneta pasūtījumi ----------
+o_hint1 | zane | Cilnes ir virs precēm: Audumi, Dzija, Piederumi. Pasūtījuma lapiņa ir pašā augšā 📋
+o_hint2 | dace | Audumu velc pa labi līdz zaļajai līnijai un spied «Griezt» ✂
+o_intro | nar | Pieci pasūtījumi kā restorānā: savāc preces, nogriez audumu, sapako, uzlīmē uzlīmi un ieliec pelēkajā kastē. Katram ir savs taimeris!
+o_zane_first | zane | Pirmā paka gatava! 📦 Tu esi dzimusi šim darbam
+o_fast1 | dace | Ātrāk nekā es! 😮
+o_fast2 | ieva | Pircējas būs priecīgas — tik ātri! 💛
+o_done | nar | Pieci pasūtījumi ir pelēkajā kastē! Tagad tie jāaiznes uz oranžo pakomātu.
+
+# ---------- 12. Pakomāts ----------
+l_hint | zane | Lielā paka iet lielajā nodalījumā. Sāc ar lielākajām! 📦
+l_done | nar | Durtiņas aizveras viena pēc otras: klak, klak, klak. Pakas ir ceļā pie pircējām!
+l_zane_tetris | zane | Kā tetrisā! Neviena lieka vieta 🧩
+l_dace | dace | Visas pakas ceļā! Bravo 👏
+
+# ---------- 13. Veikals atvērts ----------
+op_hint1 | dace | Pieskaries klientei ar zīmīti virs galvas: 📍 jautā, kur kas ir; ❓ ir jautājums; ✂️ grib audumu; 💶 maksā
+op_hint2 | zane | Neaizmirsti putekļus un pasūtījumus! Pogas ir zem uzdevuma 🧹📦
+op_open | nar | Desmit! Tu apgriez zīmi uz «Atvērts», un durvju zvaniņš jau skan.
+op_ieva_open | ieva | Veikals ir vaļā! Esmu tik lepna 🥹
+op_ieva_order | ieva | Ienāca jauns interneta pasūtījums! Lapiņa ir pie pelēkās kastes 🖨
+op_dace_tea | dace | Esmu izdzērusi jau sesto tasi tējas ☕ Kā tev iet?
+op_dace_tea2 | dace | Turos! Domās esmu tur ar tevi 🫶
+op_zane_cool | zane | Redzu, ka tu esi dzimusi pārdevēja 😎
+op_zane_selfie | zane | Mans kaķis guļ uz manis un neļauj celties 🐈 Tu esi mūsu varone!
+op_ieva_lunch | ieva | Pusdienlaiks! Neaizmirsti iedzert ūdeni 💧
+op_dace_photo | dace | Mana mamma teica, ka atnāks pēc dzijas 😄 Viņai patīk zilā!
+op_ieva_almost | ieva | Vēl drusciņ līdz 14:00! Tu esi brīnišķīga 🌟
+op_zane_dust | zane | Putekļu jau kā sniega 🙈 Sūcējs ir stūrī!
+op_dace_angry | dace | Neuztraucies, ka viena aizgāja. Tā gadās arī mums 💛
+op_zane_smart | zane | Tu zini atbildi? Tu esi gudrāka par mani 😅
+op_ieva_courier | ieva | Kurjers paņēma pakas! 📦👋
+op_vac1 | dace | Tīrs kā aptiekā! ✨
+op_vac2 | zane | Putekļi uzvarēti! 🧹💪
+op_close | nar | Pulkstenis ir 14:00! Tu aizslēdz durvis un dziļi ievelc elpu.
+
+# klientes: kur kas ir
+w_zip | kl | Labdien! Kur jums ir rāvējslēdzēji?
+w_buttons | kl | Sveiki! Man vajag pogas mētelim. Kur tās atrast?
+w_thread | kl | Labdien! Kur ir šujamdiegi?
+w_mneedle | kl | Kur jums ir adatas šujmašīnai?
+w_mohair | kl | Sveiki! Kur ir mohēra dzija?
+w_merino | kl | Labdien! Meklēju merino dziju. Kur tā ir?
+w_cotyarn | kl | Kur jums ir kokvilnas dzija vasaras topiņam?
+w_sockyarn | kl | Man vajag zeķu dziju mazbērniem. Kur tā ir?
+w_lining | kl | Labdien! Kur ir oderes audumi?
+w_lining2 | kl | Man vajag oderi mētelim. Kur meklēt?
+w_fleece | kl | Sveiki! Kur jums ir flīss?
+w_velvet | kl | Kur ir velūrs? Gribu šūt kleitu.
+w_linen | kl | Labdien! Kur atrodas lina audumi?
+w_jersey | kl | Kur ir trikotāža? Šūšu mazbērnam kreklu.
+w_hooks | kl | Kur jums ir tamborēšanas āķi?
+w_needles | kl | Man vajag adāmadatas. Kur tās ir?
+w_circular | kl | Kur ir apļadatas? Gribu adīt džemperi.
+w_markers | kl | Vai jums ir valdziņu marķieri? Kur tie ir?
+w_ok1 | kl | Paldies, mīļā!
+w_ok2 | kl | Re, kur ir! Paldies!
+w_ok3 | kl | Cik jauki, uzreiz atradāt!
+w_self | kl | Nekas, pati atradīšu…
+
+# klientes: griešana
+cut_linen | kl | Labdien! Lūdzu, nogrieziet man pusotru metru lina.
+cut_fleece | kl | Man vajag divus metrus rozā flīsa. Mazmeitai pidžamai!
+cut_velvet | kl | Lūdzu, astoņdesmit centimetrus zaļā velūra.
+cut_flower | kl | Nogriezīsiet man metru divdesmit no tā ar puķītēm?
+cut_lining | kl | Man pietiks ar pusmetru oderes, lūdzu.
+cut_leaves | kl | Trīs metrus «Rudens lapas», lūdzu! Šūšu aizkarus.
+cut_stars | kl | Septiņdesmit centimetrus ar zvaigznītēm, lūdzu.
+cut_stripe | kl | Metru un desmit centimetrus trikotāžas ar strīpām, lūdzu.
+cut_ok | kl | Precīzi! Paldies!
+cut_meh | kl | Nu… gan jau derēs.
+
+# maksāšana un atvadas
+pay_card | kl | Es maksāšu ar karti.
+pay_cash | kl | Lūdzu, te būs nauda.
+pay_card_m | klv | Es maksāšu ar karti, ja var.
+pay_cash_m | klv | Lūdzu, te ir nauda.
+m_hello | klv | Labdien! Sieva sūtīja pēc šī te 😅
+leave_happy1 | kl | Paldies! Jums te ir tik jauki!
+leave_happy2 | kl | Noteikti atnākšu vēl!
+leave_happy3 | kl | Cik laba apkalpošana! Paldies!
+leave_ok | kl | Paldies, uz redzēšanos.
+leave_angry | kl | Nu, es vairs negaidīšu…
+leave_m | klv | Paldies! Sieva būs priecīga.
+leave_angry_m | klv | Nu, es iešu…
+qa_ok1 | kl | Tieši tā! Paldies, mīļā!
+qa_ok2 | kl | Jā, tā arī domāju. Paldies!
+qa_ok3 | kl | Cik gudra pārdevēja! Paldies!
+cour_hi | kurjers | Labdien! Pakas man? Paldies!
+cour_empty | kurjers | Šoreiz nekā? Labi, atbraukšu vēlāk!
+
+# ---------- 14. Slēgšana ----------
+cl_1 | nar | Tu apgriez zīmi uz «Slēgts». Atliek pārbaudīt kasi.
+cl_cashq | nar | Cik naudas tagad jābūt kases atvilktnē?
+cl_cash_ok | nar | Pareizi! Kartes maksājumi atvilktnē naudu nepieliek, tāpēc skaita tikai skaidro naudu. Kase sakrīt!
+cl_cash_no | nar | Ne gluži. Atvilktnē ir rīta nauda plus šodienas skaidrā nauda. Kartes maksājumi tajā nenonāk.
+cl_ieva | ieva | {name}, tu esi brīnums! ❤️ Paldies, ka izglābi dienu!
+cl_dace | dace | Rīt varbūt atkal? 😄 Es vēl šķaudu…
+cl_zane | zane | Nosūti savu rezultātu draudzenēm — lai pamēģina! 🧵
+
+# ---------- Klientu jautājumi: a = pareizā atbilde, x = klientes paskaidrojums ----------
+q01 | kl | Vai audumu pirms šūšanas vajag izmazgāt?
+q01a | me | Jā, lai tas saraujas jau pirms šūšanas, nevis gatavajā apģērbā
+q01b | me | Nē, no mazgāšanas audums kļūst par biezu
+q01c | me | Tikai sintētiku, kokvilnu nekad
+q01x | kl | Es lasīju, ka kokvilna un lins pēc pirmās mazgāšanas saraujas, tāpēc tos izmazgā pirms griešanas.
+q02 | kl | Kādu adatu likt šujmašīnā, ja šuju trikotāžu?
+q02a | me | Trikotāžas jeb stretch adatu ar noapaļotu galu
+q02b | me | Ādas adatu
+q02c | me | Jebkuru, nav nekādas starpības
+q02x | kl | Man teica, ka trikotāžai vajag adatu ar apaļu galu, citādi tā plēš valdziņus.
+q03 | kl | Ko nozīmē, ka audums ir 150 cm plats?
+q03a | me | Rullis no malas līdz malai ir 150 cm plats
+q03b | me | Gabals ir 150 cm garš
+q03c | me | Audums izstiepjas līdz 150 cm
+q03x | kl | Ā, platums ir no vienas malas līdz otrai, un garumu nogriež, cik vajag.
+q04 | kl | Kāpēc, griežot apģērbu, atstāj vīles pielaidi?
+q04a | me | Lai būtu vieta vīlei, parasti ap 1–1,5 cm
+q04b | me | Lai apģērbs būtu par vienu izmēru lielāks
+q04c | me | Pielaidi neatstāj, šuj pa pašu malu
+q04x | kl | Pareizi, vīlei vajag vietu — parasti ap centimetru vai pusotru.
+q05 | kl | Kāpēc mētelim šuj oderi?
+q05a | me | Lai to būtu vieglāk uzvilkt un iekšpuse būtu glīta
+q05b | me | Lai mētelis būtu smagāks
+q05c | me | Lai mēteli nekad nevajadzētu gludināt
+q05x | kl | Jā, oderes dēļ mētelis viegli slīd pāri drēbēm, un vīles nav redzamas.
+q06 | kl | Mana šujmašīna auduma apakšpusē taisa cilpiņas. Kas vainīgs?
+q06a | me | Visticamāk, augšējais diegs ir par vaļīgu vai nepareizi ievērts
+q06b | me | Audums ir par plānu
+q06c | me | Šujmašīnai vajag atpūsties
+q06x | kl | Ak tā! Cilpiņas apakšā parasti nozīmē, ka augšējais diegs ir par vaļīgu vai nepareizi ievērts.
+q07 | kl | Kam vajadzīgs overloks?
+q07a | me | Lai vienā reizē apšūtu un apgrieztu malu, un tā neirtu
+q07b | me | Lai šūtu pogu caurumus
+q07c | me | Lai gludinātu vīles
+q07x | kl | Tieši tā, overloks apšuj malu, lai tā neirst.
+q08 | kl | Ko nozīmē trīs punkti uz gludekļa?
+q08a | me | Augstāko temperatūru — kokvilnai un linam
+q08b | me | Zemāko temperatūru — zīdam
+q08c | me | Gludināt ar tvaiku trīs reizes
+q08x | kl | Jā, trīs punkti ir karstākais režīms kokvilnai un linam. Viens punkts ir vēsākais.
+q09 | kl | Kā pareizi gludināt vilnas audumu?
+q09a | me | Caur mitru drāniņu un ne pārāk karstu
+q09b | me | Pēc iespējas karstāk un ilgāk
+q09c | me | Vilnu gludināt nedrīkst nekad
+q09x | kl | Vilnu gludina saudzīgi caur mitru drāniņu, lai nepaliek spīdīgi plankumi.
+q10 | kl | Kāpēc trikotāžu šuj ar zigzagu vai elastīgo dūrienu?
+q10a | me | Lai vīle stieptos līdzi audumam un nepārplīstu
+q10b | me | Lai vīle būtu skaistāka
+q10c | me | Lai patērētu mazāk diega
+q10x | kl | Saprotu — taisns dūriens trikotāžā pārtrūkst, kad audums izstiepjas.
+q11 | kl | Kurš audums būs siltāks mājas jakai?
+q11a | me | Flīss
+q11b | me | Šifons
+q11c | me | Oderes audums
+q11x | kl | Jā, flīss ir silts un viegls. Šifons ir plāns un caurspīdīgs.
+q12 | kl | Ar ko pirms griešanas piestiprināt piegriezni audumam?
+q12a | me | Ar kniepadatām vai auduma klipšiem
+q12b | me | Ar līmlenti
+q12c | me | Ar skavotāju
+q12x | kl | Kniepadatas vai klipši — tā audums nesabojājas.
+q13 | kl | Ko nozīmē «adāmadatas Nr. 4»?
+q13a | me | Adatu resnums ir 4 milimetri
+q13b | me | Adatas ir 4 centimetrus garas
+q13c | me | Komplektā ir 4 adatas
+q13x | kl | Ak, tas ir resnums milimetros! Jo lielāks numurs, jo resnāka adata.
+q14 | kl | Kur var redzēt, kādas adatas der šai dzijai?
+q14a | me | Uz dzijas etiķetes
+q14b | me | Pēc dzijas krāsas
+q14c | me | Uz adatām vienmēr rakstīts «der visam»
+q14x | kl | Jā, etiķetē parasti ir ieteiktais adatu izmērs.
+q15 | kl | Ko nozīmē dzijas etiķetē «50 g / 125 m»?
+q15a | me | Kamoliņš sver 50 g, un tajā ir 125 m dzijas
+q15b | me | Ar to var noadīt 125 cm garu šalli
+q15c | me | Dziju drīkst mazgāt 50 grādos
+q15x | kl | Saprotu — svars un garums. Tā var aprēķināt, cik kamoliņu vajag.
+q16 | kl | Kāpēc pirms džempera vajag noadīt mazu paraudziņu?
+q16a | me | Lai pārbaudītu adījuma blīvumu un izmēru
+q16b | me | Lai iesildītu rokas
+q16c | me | Tā ir tikai veca tradīcija
+q16x | kl | Jā, paraudziņš parāda, cik valdziņu ir 10 centimetros, un izmērs sanāk pareizs.
+q17 | kl | Kā sauc darba sākumu, kad uz adatas uzliek pirmos valdziņus?
+q17a | me | Valdziņu uzmešana
+q17b | me | Valdziņu nolaišana
+q17c | me | Darba nobeigšana
+q17x | kl | Pareizi — valdziņu uzmešana. Ar to sākas katrs adījums.
+q18 | kl | Kas notiek, ja divus valdziņus noada kopā?
+q18a | me | Valdziņu skaits samazinās par vienu
+q18b | me | Valdziņu skaits palielinās
+q18c | me | Darbs ir pabeigts
+q18x | kl | Jā, tā adījumu sašaurina, piemēram, cepures virsotnē.
+q19 | kl | Ko darīt, ja valdziņš noslīdējis no adatas un aizskrējis uz leju?
+q19a | me | Uzcelt to atpakaļ ar tamborēšanas āķi
+q19b | me | Izjaukt visu darbu
+q19c | me | Atstāt — tas būs dekoratīvs caurumiņš
+q19x | kl | Ar āķīti valdziņu var uzlasīt rindu pa rindai atpakaļ. Paldies!
+q20 | kl | Kā mazgāt vilnas adījumu?
+q20a | me | Remdenā ūdenī ar vilnas mazgāšanas līdzekli, saudzīgi
+q20b | me | Karstā ūdenī 90 grādos
+q20c | me | Ar balinātāju, lai būtu gaišāks
+q20x | kl | Jā, karstā ūdenī vilna sasēžas. Remdens ūdens un saudzīgi!
+q21 | kl | Kāpēc vilnas džemperi žāvē guļus?
+q21a | me | Lai tas neizstieptos
+q21b | me | Lai tas ātrāk izžūtu
+q21c | me | Lai neizbalētu krāsa
+q21x | kl | Ak tā! Slapja vilna ir smaga, un pakārta tā izstiepjas.
+q22 | kl | Ar ko ērti adīt zeķes pa apli?
+q22a | me | Ar zeķu adatām vai apļadatām
+q22b | me | Ar vienu garu taisnu adatu
+q22c | me | Ar tamborēšanas āķi
+q22x | kl | Jā, ar zeķu adatām vai apļadatām zeķe sanāk bez vīles.
+q23 | kl | Kāda dzija vislabāk der zīdaiņa cepurītei?
+q23a | me | Mīksta merino vai kokvilna
+q23b | me | Raupja aitas vilna
+q23c | me | Dzija ar metāla diegu
+q23x | kl | Jā, zīdaiņa ādai vajag pašu mīkstāko — merino vai kokvilnu.
+q24 | kl | Ko sauc par bizēm adījumā?
+q24a | me | Valdziņus pārliek vienu pāri otram, un sanāk pinuma raksts
+q24b | me | Garas bārkstis apakšā
+q24c | me | Pogu caurumus
+q24x | kl | Jā, bizes izskatās kā pinums — skaisti siltos džemperos.
+q25 | kl | Ko nozīmē «tamborēšanas āķis Nr. 3,5»?
+q25a | me | Āķa resnums ir 3,5 milimetri
+q25b | me | Āķis ir 3,5 cm garš
+q25c | me | Ar to var tamborēt 3,5 stundas
+q25x | kl | Saprotu, numurs ir resnums milimetros.
+q26 | kl | Ar ko parasti sāk tamborējumu?
+q26a | me | Ar gaisa valdziņu ķēdīti
+q26b | me | Ar mezglu katrā rindā
+q26c | me | Ar adāmadatu
+q26x | kl | Jā, vispirms gaisa valdziņu ķēdīte, un uz tās tamborē nākamo rindu.
+q27 | kl | Kas ir amigurumi?
+q27a | me | Tamborētas mīkstās rotaļlietas
+q27b | me | Japāņu audums
+q27c | me | Tamborēšanas āķa veids
+q27x | kl | Ak, tās mazās tamborētās mantiņas! Mazbērniem patiks.
+q28 | kl | Kāpēc amigurumi tamborē cieši?
+q28a | me | Lai pildījums nespraucas ārā
+q28b | me | Lai ietaupītu dziju
+q28c | me | Lai būtu ātrāk
+q28x | kl | Jā, ja tamborē vaļīgi, starp valdziņiem redz pildījumu.
+q29 | kl | Kas ir «burvju aplis» tamborēšanā?
+q29a | me | Sākuma aplis, ko var savilkt ciet bez cauruma vidū
+q29b | me | Aplis, kas maina krāsu
+q29c | me | Pēdējā rinda
+q29x | kl | Tieši tā — to savelk, un vidū nav cauruma. Lieliski cepurītēm un rotaļlietām.
+q30 | kl | Kurš ir garāks: īsais stabiņš vai stabiņš ar apmetienu?
+q30a | me | Stabiņš ar apmetienu
+q30b | me | Īsais stabiņš
+q30c | me | Abi ir vienādi
+q30x | kl | Jā, apmetiens padara stabiņu garāku, un darbs aug ātrāk.
+q31 | kl | Kas ir «babuškas kvadrāts»?
+q31a | me | Klasisks tamborēts kvadrāts no stabiņu grupām
+q31b | me | Kvadrātveida audums
+q31c | me | Vecmāmiņu adīšanas pulciņš
+q31x | kl | Jā, no tiem var sašūt pledu vai somu!
+q32 | kl | Kāda dzija vislabāk der pirmajam tamborējumam?
+q32a | me | Gaiša, gluda, vidēji bieza dzija
+q32b | me | Melna, pūkaina mohēra
+q32c | me | Ļoti tieva zīda dzija
+q32x | kl | Saprotu — gaišā, gludā dzijā labāk redz valdziņus.
+q33 | kl | Ko darīt ar diega galiem darba beigās?
+q33a | me | Ar biezu adatu ievērt tos darbā, lai neatirst
+q33b | me | Nogriezt pie paša mezgla
+q33c | me | Atstāt brīvi karājamies
+q33x | kl | Jā, galus ievij darbā ar adatu, tad nekas neatirst.
+q34 | kl | Kā tamborējumā panākt taisnu malu?
+q34a | me | Skaitīt valdziņus katrā rindā
+q34b | me | Tamborēt ātrāk
+q34c | me | Mainīt āķi katrā rindā
+q34x | kl | Jā, ja valdziņu skaits nemainās, mala paliek taisna.
+q35 | kl | Kā panākt, lai tamborēta salvete būtu gluda un raksts atvērtos?
+q35a | me | Izmazgāt, izklāt formā un ļaut izžūt — to sauc par blokošanu
+q35b | me | Ielikt saldētavā
+q35c | me | Gludināt pēc iespējas karstāk
+q35x | kl | Blokošana! Izklāj mitru formā un ļauj izžūt — tad raksts atveras.
+q36 | kl | Kāpēc, pērkot vairākus kamoliņus, jāskatās, lai tie būtu no vienas krāsojuma partijas?
+q36a | me | Jo dažādās partijās tonis var mazliet atšķirties
+q36b | me | Jo citādi dzija būs dažāda garuma
+q36c | me | Tas nav svarīgi
+q36x | kl | Jā, vienā partijā krāsa ir vienāda. Citā tonis var mazliet atšķirties, un adījumā to redz.
